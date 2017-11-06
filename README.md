@@ -1,1 +1,1 @@
-cnblogs以及csdn博客搬迁
+# cnblogs and csdn blog moving
