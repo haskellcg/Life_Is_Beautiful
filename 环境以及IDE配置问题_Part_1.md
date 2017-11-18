@@ -13,3 +13,12 @@
 ## 取消VS的自动排版  
   每人都有自己的编码风格，VS的自动排版如果不合适，通过以下方法取消：
   * Tools -> Options -> Text Editor -> Formatting
+  
+## warning LNK4099: PDB 'vc90.pdb' was not found
+  这是我在编写opengl测试项目时遇到的，应该是引入的默认的gltools是debug，解决方法:
+  * 选择目录VisualStudio2008\GLTools，打开对应项目
+  * 修改include目录，添加"..\..\Src\GLTools\include"
+  
+## warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  这是我在编写OpenGL测试项目时遇到的，主要是现在编译选项与库的编译选项不一致，解决方法就是使用库的编译选项:
+  * c/c++ -> Code Generation -> Runtime library -> 修改/MD为/MT
