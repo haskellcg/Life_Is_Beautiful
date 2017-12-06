@@ -10,3 +10,9 @@
   * l: list，列出当前断点位置的代码段
   * c: continue, 继续进行
   * r: run, 运行程序
+  * disa b: 使断点失效，但是不删除
+  * thread TID: 多线程调试，保持在TID的线程，不跳到其他线程
+  * **bt**: breaktrace, 打印调用堆栈信息
+  * info locals: 打印当前函数的局部变量以及其值
+  * info args: 打印当前函数的参数名以及其值
+  * info catch: 打印当前函数的异常处理信息
