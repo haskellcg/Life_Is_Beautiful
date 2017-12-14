@@ -1,3 +1,3 @@
 # CNBlogs and CSDN blog moving
-  * [CSDN](my.csdn.net/boostc)
-  * [CNBlogs](www.cnblogs.com/BoostQt)
+  * [CSDN](http://my.csdn.net/boostc)
+  * [CNBlogs](http://www.cnblogs.com/BoostQt)
