@@ -6,6 +6,7 @@
 
 ## Python
   * [zulko](http://zulko.github.io)
+  * [simple](https://pypi.python.org/simple)
 
 ## Processing [Programming Language]
   * [Official Website](https://www.processing.org)
