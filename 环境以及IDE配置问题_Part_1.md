@@ -10,6 +10,9 @@
   * 重新打开cmd即可使用pip
   * pip install xxx.whl
   
+## Pip安装时使用代理
+  * Pip install --proxy http://username:password@proxyIP:proxyPort
+  
 ## 取消VS的自动排版  
   每人都有自己的编码风格，VS的自动排版如果不合适，通过以下方法取消：
   * Tools -> Options -> Text Editor -> Formatting
