@@ -27,4 +27,4 @@
   * c/c++ -> Code Generation -> Runtime library -> 修改/MD为/MT
   
 ## Git Bash设置为Glass还挺好看的
-  * [是这样的](https://github.com/haskellcg/Blog_Pictures/blob/master/git_bash_glass.PNG)
+  * ![是这样的](https://github.com/haskellcg/Blog_Pictures/blob/master/git_bash_glass.PNG)
