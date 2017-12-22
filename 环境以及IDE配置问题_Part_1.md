@@ -25,3 +25,6 @@
 ## warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
   这是我在编写OpenGL测试项目时遇到的，主要是现在编译选项与库的编译选项不一致，解决方法就是使用库的编译选项:
   * c/c++ -> Code Generation -> Runtime library -> 修改/MD为/MT
+  
+## Git Bash设置为Glass还挺好看的
+  * [是这样的](https://github.com/haskellcg/Blog_Pictures/blob/master/git_bash_glass.PNG)
