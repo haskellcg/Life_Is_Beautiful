@@ -9,7 +9,7 @@
   ```
   set nu
   set tabstop=4
-  set extendtab
+  set expandtab
   set ai
   syntax on
   ```
