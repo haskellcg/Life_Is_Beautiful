@@ -23,8 +23,9 @@
 
 ## Python
   * [zulko](http://zulko.github.io)
-  * [simple](https://pypi.python.org/simple)
+  * [simple](https://pypi.python.org/simple)  
   * [python-whl](https://www.lfd.uci.edu/%7Egohlke/pythonlibs/)
+  * [Mayavi](http://docs.enthought.com/mayavi/mayavi/index.html)
 
 ## Processing [Programming Language]
   * [Official Website](https://www.processing.org)
