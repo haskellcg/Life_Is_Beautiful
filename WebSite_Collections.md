@@ -29,6 +29,9 @@
 
 ## Processing [Programming Language]
   * [Official Website](https://www.processing.org)
+  
+## Qt
+  * [Qt](http://download.qt.io/official_releases)
 
 ## Unknown Place
   * [lfd](https://www.lfd.uci.edu)
