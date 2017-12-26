@@ -1,3 +1,6 @@
+## Book Examples
+  * [Oreilly Books](https://resources.oreilly.com/examples)
+
 ## Deep Learning
   * [北大学习资源](http://net.pku.edu.cn/dlib/deeplearning/)
   * [Deep Leanrning Official](http://deeplearning.net/tutorial/)
