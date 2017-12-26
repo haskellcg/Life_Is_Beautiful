@@ -1,5 +1,6 @@
 ## Book Examples
   * [Oreilly Books](https://resources.oreilly.com/examples)
+  * [Programming Collective Intelligence 2007.8: MovieLens](https://grouplens.org/datasets/movielens/)
 
 ## Deep Learning
   * [北大学习资源](http://net.pku.edu.cn/dlib/deeplearning/)
