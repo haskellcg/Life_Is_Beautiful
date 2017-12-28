@@ -28,3 +28,10 @@
   
 ## Git Bash设置为Glass还挺好看的
   * ![是这样的](https://github.com/haskellcg/Blog_Pictures/blob/master/git_bash_glass.PNG)
+  
+## VPN在Win7_x64初次连接失败，错误代码789
+  这个问题目前不清楚为什么，按照下面的操作即可:
+  * 打开注册表
+  * 进入目录 HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\Rasman\Parameters
+  * 新建项:(DWORD)ProhibitIpSec，值设为1
+  * 重启电脑即可
