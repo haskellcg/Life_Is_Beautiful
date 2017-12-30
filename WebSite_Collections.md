@@ -16,6 +16,7 @@
   * [Pro-Git](https://progit.bootcss.com)
   * [Git in Github](https://github.com/git)
   * [Git GUIs](https://git-scm.com/downloads/guis)
+  * [Github Desktop](https://desktop.github.com/)
    
 ## GTK+
   * [For Cairo](https://gtk-win.sourceforge.io/home/)
