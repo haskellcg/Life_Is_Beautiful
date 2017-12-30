@@ -60,6 +60,7 @@ GitHub提供了代码托管，使用邮箱注册、填写profile，相当方便�
   1. > git config [--global] core.editor emacs
   1. > git config list
   1. > git config user.name
+  1. > git help config
  
  [> Git与GitHub连接](http://www.jianshu.com/p/7fa6b2d81f19)  
  [> Git使用教程](https://segmentfault.com/a/1190000003728094)  
