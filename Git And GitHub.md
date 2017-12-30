@@ -50,7 +50,11 @@ GitHub提供了代码托管，使用邮箱注册、填写profile，相当方便�
      提交更新提示，并将更新提交到远程库
      
 # 放弃所有本地的修改
-  1. > git reset --hard origin/master
+  1. > git reset --hard origin/master  
+  
+# 配置文件 
+  1. > vim ~/.gitconfig
+  1. 编辑user.name/user.email
  
  [> Git与GitHub连接](http://www.jianshu.com/p/7fa6b2d81f19)  
  [> Git使用教程](https://segmentfault.com/a/1190000003728094)  
