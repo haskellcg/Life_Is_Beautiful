@@ -8,6 +8,7 @@
   * [ML Demos](http://mldemos.b4silio.com/)
   * [dlib](http://dlib.net/)
   * [dlib_books_recommended](http://dlib.net/books.html)
+  * [khronos](https://www.khronos.org/)
 
 ## FrontEnd
   * [Bootstrap](http://www.bootcss.com)
