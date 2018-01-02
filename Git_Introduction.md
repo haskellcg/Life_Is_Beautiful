@@ -251,6 +251,7 @@
   \-\-committer|仅显示指定提交者相关的提交
   \-\-grep|仅显示含指定关键字的提交
   \-S|仅显示添加或移除了某个关键字的提交
+  \-\-decorate|显示各个分支当前所指的对象
   
 ### 撤销操作
   发现提交漏掉了几个文件，或者提交信息写错了，可以选择带有--amend选项的提交命令尝试重新提交
@@ -368,8 +369,20 @@
   ```
   
 ### Git别名
-  如果不想每次都输入完整
+  如果不想每次都输入完整的Git命令，可以通过git config文件来轻松地为每一个命令
+  ```
+  git config --global alias.co checkout
+  git config --global alias.br branch
+  git config --global alias.ci commit
+  git config --global alias.st status
   
+  git config --global alias.unstage 'reset HEAD --'
+  
+  git config --global alias.last 'log -1 HEAD'
+  
+  执行外部命令
+  git config --global alias.visual '!gitk'
+  ```  
 
 ## 3. Git Branch
   Nearly every VCS has some form of branching support. Branching means you diverge from the main line of development and continue to do work without messing with that main line. **_In many VCS tools, this is a somewhat expensive process, often requiring you to create a new copy of your source code directory, which can take a long time for large project_**.
@@ -380,6 +393,43 @@
   As you may remember from Getting Started, Git doesn't store data as a series of changesets or differences, but instead as a series of snapshots.
   
   When you make a commit, Git stores a commit object that contains a pointer to the snapshot of the content you staged. This object also contains the author's name and email, the message that you typed, and the pointers to the commit or commits that directly came before this commit (its parent or parents): zero parents for the initial commit, one parent for a normal commit, and multiple parents for a commit that results from a merge of two or branches.
+  
+  暂存操作会为每一个文件计算校验和(SHA-1哈希算法)，然后会把当前版本的文件快照保存到Git仓库中(Git使用blob对象来保存它们)，最终将校验和加入到暂存区域等待提交：
+  ```
+  git add README test.rb LICENSE
+  git commit -m "The initial commit of my project"
+  ```
+  
+  当使用git commit进行提交操作时，Git会先计算每一个子目录的校验和，然后在Git仓库中这些校验和保存为树对象，随后，Git便会创建一个提交对象，它除了包含上面提到的那些信息外，还包含这个树对象的指针，如此一来，Git就可以在需要的时候重现此次保存的快照。
+  
+  现在Git仓库中5个对象：
+  * 3个blob对象(保存文件快照)
+  * 1个树对象(记录着目录结构和blob对象索引)
+  * 1个提交对象(包含着指向前述树对象的指针和所有提交信息)
+  
+  Git的分支，其实本质上仅仅是指向提交对象的可变指针。Git的默认分支名字是master。在多次提交操作之后，你其实已经有一个指向最后那个提交对象的master分支。
+  
+  Git的master分支并不是特殊的分支，它跟其他分支没有区别，之所以每一个仓库都有一个master分支，是因为git init命令默认创建它，并且大多数人懒得去改。
+  
+  分支创建:
+  ```
+  git branch testing
+  ```
+  
+  Git有一个名为HEAD的特殊指针，请注意它与许多其他版本控制系统(Subversion/CVS)中的HEAD概念不同，在Git中，它是一个指针，指向当前所在本地分支
+  
+  使用git log命令查看各个分支所指的对象
+  ```
+  git log --oneline --decorate
+  ```
+  
+  分支切换: 将HEAD指向testing，并将工作目录恢复成master分支所指向的快照内容
+  ```
+  git checkout testing
+  ```
+  
+  
+  
   
 ## 10. Git内部原理
   从根本上来说，Git是一个内容寻址(content-addressable)文件系统。
