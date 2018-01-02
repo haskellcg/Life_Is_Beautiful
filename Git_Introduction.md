@@ -428,7 +428,114 @@
   git checkout testing
   ```
   
+### 分支的新建与合并  
+  新建分支并同时切换到该分支
+  ```
+  git checkout -b isss53
   
+  =>
+  git branch iss53
+  git checkout iss53
+  ```
+  
+  发现基于master的分支有bug，需要切回到master分支，但是在你做之前，要留意你的工作目录和暂存区里那些还没有被提交的修改，它可能会和你即将检出的分支产生冲突从而阻止Git切换到该分支。最好的方法是，在你切换到分支之前，保持好一个干净的状态。
+  
+  有一个方法可以绕过这个问题(即，保存进度(stashing)和修补提交(commit amending))
+  
+  切换回到目前bug的分支
+  ```
+  git checkout master
+  ```
+  
+  接下来你需要修复这个问题，我们建立一个针对该紧急问题的分支，在分支上工作直到解决问题
+  ```
+  git checkout -b hotfix
+  ```
+  
+  修复完毕之后，需要将其合并到你的master分支来部署到线上，你可以使用git merge命令： 
+  ```
+  git checkout master
+  git merge hotfix
+  ```
+  
+  在合并时，由于当前master分支所指向的提交是你当前提交的直接上游，所以Git只是简单的将指针移动。换句话说，当你试图合并两个分支时，如果顺着一个分支走下去可能到达另一个分支，那么Git在合并两者的时候，只会简单的将指针向前推进，因为这种情况下的合并操作并没有需要解决的分歧，所以叫做"fast-forward"
+  
+  在紧急的问题的解决方案发布之后，你准备回到被打断之前时的工作中，然而，你应该先删除hotfix分支，因为你已经不需要它了
+  ```
+  git branch -d hotfix
+  
+  git checkout iss53
+  ```
+  
+  分支的合并
+  ```
+  git checkout master
+  
+  git merge iss53
+  ```
+  
+  这和你之前的合并hotfix分支的时候看起来不一样，你的开发历史从一个更早的地方开始分叉开来，因为，master分支所在的提交并不是iss53分支所在提交的直接祖先，在这种情况下，Git会使用这两个分支的末端所指的快照(C4,C5)以及这两个分支的工作祖先(C2)，做一个简单的三方合并。
+  
+  需要指出的是，Git会自行决定选取哪一个提交作为共同祖先，并以此作为合并的基础；这和更加古老的CVS或者Subversion不同，在这些古老的版本管理系统中，用户需要自己选择最佳的合并基础。
+  
+  ```
+  git branch -d iss53
+  ```
+  
+### 遇到冲突的分支合并
+  ```
+  git merge iss53  
+  > ... conflict ...
+  
+  git status
+  > ... unmerged ...
+  ```
+  
+  编辑冲突
+  ```
+  git mergetool
+  ```
+  
+  或者手动编辑文件
+  
+### 分支管理  
+  ```
+  git branch
+  
+  git branch -v
+  ```
+  
+  \-\-merged与\-\-no\-merged选项可以过滤这个列表中已经合并或尚未合并到当前分支的分支
+  ```
+  git branch --merged
+  > iss53
+  > * master    
+  
+  git branch --no-merged
+  ```
+  这个列表中分支名字前没有\*号的分支通常可以使用git branch -d删除
+  
+### 分支开发工作流程  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  **_P58_**
   
   
 ## 10. Git内部原理
