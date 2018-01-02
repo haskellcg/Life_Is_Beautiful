@@ -23,6 +23,10 @@
   * [For Cairo](https://gtk-win.sourceforge.io/home/)
   * [For Cairo](http://win32builder.gnome.org/)
   
+## Linux
+  * [kernel](https://www.kernel.org/)
+  * [kernel.org](https://www.kernel.org/pub/software/)
+  
 ## Linux Shell On Windows  
   * [MINGW64](http://www.mingw-w64.org/doku.php/start)
   
