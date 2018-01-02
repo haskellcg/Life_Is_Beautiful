@@ -252,6 +252,124 @@
   \-\-grep|仅显示含指定关键字的提交
   \-S|仅显示添加或移除了某个关键字的提交
   
+### 撤销操作
+  发现提交漏掉了几个文件，或者提交信息写错了，可以选择带有--amend选项的提交命令尝试重新提交
+  ```
+  git commit --amend
+  
+  example:
+  git commit -m "initial commit"
+  git add forgotten_file
+  git commit --amend
+  ```
+  
+  取消暂存的文件
+  ```
+  git reset HEAD CONTRIBUTE.md
+  ```
+  
+  撤消对文件的修改
+  ```
+  git checkout -- CONTRIBUTE.md
+  ```
+  
+### 远程仓库的使用
+  查看远程仓库
+  ```
+  git remote
+  git remote -v
+  
+  git remote show origin
+  ```
+  
+  添加远程仓库
+  ```
+  git remote add <shortname> <url>
+  ```
+  
+  从远程仓库抓去或拉取
+  ```
+  fetch命令会将数据拉取到你的仓库，它并不会自动合并或修改你当前的工作，当准备好时你必须手动将其合并入你的工作
+  git fetch [remote-name]
+  
+  如果你有一个分支设置为跟踪一个远程分支
+  git pull
+  
+  默认情况下，git clone命令会自动设置本地master分支跟踪克隆的远程仓库的master分支，
+  运行git pull通常会从克隆的服务器上抓取数据并尝试合并到当前所在分支
+  git branch --set-upstream-to=origin/master master
+  git pull
+  ```
+  
+  推送到远程仓库
+  ```
+  git push [remote-name] [branch-name]
+  git push origin master
+  ```
+  
+  远程仓库的移除与重命名
+  ```
+  git remote rename pd paul
+  
+  git remote rm paul
+  ```
+  
+### 打标签
+  像其他版本控制系统一样，Git可以给历史中的某一个提交打上标签，以示总要。比较有代表性的是人们会使用这个功能来标记发布节点。
+  
+  Git使用两种主要类型的标签: 轻量标签(lightweight) 和 附注标签(annoted)
+  * 一个轻量标签很想一个不会改变的分支，它只是一个特定提交的引用
+  * 附注标签则是存储在Git数据库中的一个完整对象，它可以被校验、其中包含打标签者的名字、电子邮件地址、日期时间，标签信息，并且可以使用GNU Privacy Guard (GPG)签名与验证。
+  
+  通常建议创建附注标签。
+  
+  默认情况下，git push命令并不会传送标签到远程仓库服务器上，在创建完标签后你必须显式地推动标签。
+  
+  在Git中你并不能真的检出一个标签，因为它们并不能向分支一样来回移动。如果你想要工作目录与仓库中特定的标签版本完全一样，可以使用git checkout -b [branchname] [tagname]
+  
+  列出标签
+  ```
+  git tag
+  
+  1.8.5系列
+  git tag -l 'v1.8.5*'   
+  ```
+  
+  创建附注标签
+  ```
+  git tag -a v1.4 -m "my version 1.4"
+  
+  git show v1.4
+  ```
+  
+  创建轻量标签
+  ```
+  git tag v1.4-lw
+  
+  git show v1.4-lw
+  ```
+  
+  后期打标签
+  ```
+  git tag -a v1.2 9fceb02
+  ```
+  
+  共享标签
+  ```
+  git push origin v1.5
+  
+  推送全部的标签
+  git push origin --tags
+  ```
+  
+  检出标签
+  ```
+  git checkout -b version2 v2.0.0
+  ```
+  
+### Git别名
+  如果不想每次都输入完整
+  
 
 ## 3. Git Branch
   Nearly every VCS has some form of branching support. Branching means you diverge from the main line of development and continue to do work without messing with that main line. **_In many VCS tools, this is a somewhat expensive process, often requiring you to create a new copy of your source code directory, which can take a long time for large project_**.
