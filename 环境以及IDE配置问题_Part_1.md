@@ -35,3 +35,15 @@
   * 进入目录 HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Services\Rasman\Parameters
   * 新建项:(DWORD)ProhibitIpSec，值设为1
   * 重启电脑即可
+  
+## 编辑器设置空格代替tab
+  注意编写makefile时，必须使用tab缩进
+
+  编辑器|设置
+  -----|----
+  Notepad++|设置 => 首选项 => 制表符设置 => 转换为空格
+  PyCharm|File => Settings => Editor => Code Style => Python
+  Sublime Text 3|Preferences => Settings - User => "tab_size" => "translate_tabs_to_spaces"
+  Vim|[参考个人vimrc设置](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/Vim_HotKeys_List.md)
+  Visual Studio|工具 => 选项 => 文本编辑器 => C# => 制表符
+  
