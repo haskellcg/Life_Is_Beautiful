@@ -1,3 +1,9 @@
+## Blogs
+  * [云风](https://blog.codingnow.com/)
+  * [侯捷]()
+  * [阮一峰](http://www.ruanyifeng.com/home.html)
+  * [廖雪峰](https://www.liaoxuefeng.com/)
+
 ## Book Examples
   * [Oreilly Books](https://resources.oreilly.com/examples)
   * [Programming Collective Intelligence 2007.8: MovieLens](https://grouplens.org/datasets/movielens/)
