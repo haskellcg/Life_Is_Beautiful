@@ -768,6 +768,58 @@
   相对与合并到主分支再推上去，推送你的工作特性到仓库更简单，
   原因时如果工作不被接收或者被拣选的，就不必会退到你的master分支
   git push -u myfork featureA
+  
+  当工作已经被推送到你的派生后，你需要通知维护者，这通常被成为一个拉取请求(pull request)。
+  git request-pull
+  git request-pull origin/master myfork
+  
+  为维护者解决冲突，然后重新提交你的改动
+  git checkout featureA
+  git rebase origin/master
+  git push -f myfork featureA
+  ```
+  
+  通过邮件公开项目:许多项目建立了接收补丁的流程
+  ```
+  生成每一个提交序列的电子邮件版本然后邮寄它们到开发者邮件列表
+  git checkout -b topicA
+  ...work...
+  git commit
+  ...work...
+  git commit
+  
+  使用git format-patch来生成可以邮寄到列表的mbox格式的文件
+  它将每一个文件提交转换为一封电子邮件，提交信息的第一行作为主题
+  剩余信息与提交引入的补丁作为正文
+  git format-patch -M origin/master
+  > xxx.patch
+  > xxaa.patch
+  
+  为了将patch邮寄到邮件列表，你既可以将文件粘贴到电子邮件客户端，也可以通过命令行程序发送。
+  粘贴文本经常会发生格式化问题
+  Git提供了一个工具帮助你通过IMAP发送正确格式化补丁
+  vim ~/.gitconfig
+  """
+  [imap]
+      folder = "[Gmail]/Drafts"
+      host = imaps://imap.gmail.com
+      user = user@gmail.com
+      pass = password
+      port = 993
+      sslverify = false
+  """
+  cat *.patch | git imap-send
+  
+  通过SMTP服务器发送补丁
+  vim ~/.gitconfig
+  """
+  [sendemail]
+      smtpencryption = tls
+      smtpserver = smtp.gmail.com
+      smtpuser = user@gmail.com
+      smtpserverport = 587
+  """
+  git send-email *.patch
   ```
   
   
