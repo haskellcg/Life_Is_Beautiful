@@ -684,6 +684,117 @@
 ## 4. 服务器上的Git  
   
 ## 5. 分布式Git  
+### 分布式工作流程  
+  在Git中，每个开发者同时扮演着节点和集线器的角色。由此，Git的分布式协作可以为你的项目和团队衍生出种种不同的工作流程。  
+  
+  * 集中式工作流程:John完成了他的修改并推送到服务器。接着Jessica尝试提交自己的修改，却遭到服务器拒绝。她被告知她的修改正通过非快进式推送，只有将数据抓取下来并且合并方能推送
+  
+  * 集成管理者工作流:每个开发者拥有自己的仓库的写权限和其他所有人仓库的读权限，这种情况下通常会有一个代表"官方"项目的权威仓库。要为这个项目做贡献，你需要从该项目克隆出一个自己的公开仓库，然后把自己的修改推送上去。接着你可以请求官方仓库的维护者拉取更新并合并到主项目
+  
+  * 司令官与副官工作流:一般拥有数百位协作者的超大型项目才会用到这样的方式，例如著名的Linux内核项目。被称为副官(lieutenant)的各个集成管理者分别负责集成项目中特定的部分。所有这些副官头上还有一位成为司令官(dictator)的总集成管理者负责统筹。司令官维护的仓库作为参考仓库，为所有协作者提供他们需要拉取的项目代码。
+  
+### 向一个项目贡献  
+  描述应该如何贡献并不是非常准确。影响因素包括：
+  * 活跃贡献者数量
+  * 选择的工作流程
+  * 提交权限
+  * 外部贡献方法
+  
+  提交准则:Git项目提供了一个文档，其中列举了关于创建提交到提交补丁的若干提示，可以在Git源代码中的Documentation/SubmittingPatches文件中阅读。尝试让每一个提交成为逻辑上的独立变更集。Git项目要求一个更详细的解释，包括改动的动机和它实现与之前行为的对比。
+  ```
+  检查空白错误
+  git diff --check    
+  ```
+  
+  私有小型团队：闭源，你和其他的开发者都有仓库的推送权限。尽管Subversion会对编辑不同文件在服务器上自动进行一次合并，但Git要强求你在本地合并提交。
+  ```
+  Jessica认为她的特性分支已经准备好了，但是她想知道必须合并什么进入她的工作才能推送，她运行git
+  git log --no-merges issue54..origin/master
+  
+  git checkout master
+  git merge issue54
+  git merge origin/master
+  git push origin master
+  ```
+  
+  私有管理团队
+  ```
+  #Jessica's Machine
+  git checkout -b featureA
+  vim lib/simplegit.rb
+  git commit -am "add limit to log function"
+  
+  git push -u origin featureA
+  
+  #Jessica's Machine
+  git fetch origin
+  git checkout -b featureB origin/master
+  vim lib/simplegit.rb
+  git commit -am "made" the ls-tree function recursive
+  vim lib/simplegit.rb
+  git committ -am "add ls-files"
+  
+  Josie已经推送了自己的分支featureBee
+  git fetch origin
+  git merge origin/feature
+  
+  Jassica需要将featureB分支上合并的工作推送到服务器上的featureBee分支
+  git push -u origin featureB:featureBee
+  
+  John已经改动了featureA
+  git fetech origin
+  git log featureA..origin/featureA
+  git checkout featureA
+  git merge origin/featureA
+  
+  ...
+  git commit -am "small tweak"
+  ```
+  
+  派生的公开项目:向公开项目做贡献有点不同，因为没有权限直接更新项目分支，你必须用其他方法将工作给维护者(GitHub/BitBuket/GoogleCode/repo.or.cz)。
+  ```
+  git clone (url)
+  cd project
+  git checkout -b featureA
+  ...work...
+  git commit
+  ...work...
+  git commit
+  
+  当你的分支工作完成后准备将其贡献回维护者，去原始项目中点击"Fork"按钮，
+  创建一份自己的可写的项目派生仓库，然后添加这个仓库url作为第二个远程仓库
+  git remote add myfork (url)
+  
+  相对与合并到主分支再推上去，推送你的工作特性到仓库更简单，
+  原因时如果工作不被接收或者被拣选的，就不必会退到你的master分支
+  git push -u myfork featureA
+  ```
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 ## 6. GitHub  
 
@@ -732,8 +843,6 @@
 ## 12. 将Git嵌入到你的应用
 
 ## 13. Git命令
-
-## P93
 
 ## My Reference
   * [Pro Git](https://git-scm.com/book/en/v2)
