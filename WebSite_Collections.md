@@ -57,3 +57,4 @@
   * [zapcc](https://www.zapcc.com/)
   * [cubic_motion](https://www.cubicmotion.com/)
   * [xbasic](http://www.xbasic.org)  
+  * [shadowsock](http://sstizi.info/home/index)
