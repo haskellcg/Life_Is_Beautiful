@@ -515,7 +515,97 @@
   ```
   这个列表中分支名字前没有\*号的分支通常可以使用git branch -d删除
   
-### 分支开发工作流程  
+### 分支开发工作流 
+#### 长期分支
+  就算在一段时间内，反复把一个分支合并入另一个分支，也不是什么难事。
+  
+  很多使用Git的开发者都喜欢使用这种方式工作，比如只在master分支上保留完全稳定的代码--有可能仅仅是已经发布或即将发布的代码。他们还有一些名为develop或者next的平行分支，被用来做后续开发或者测试稳定性--这些分支不必保持稳定，但是一旦打到稳定状态，它们就可以被合入master分支了。这样，在确保这些已完成的特性分支能够完成所有测试，并且不会引入更多Bug之后，就可以合并入主分支，等待下一次的发布。
+  
+  渐进稳定分支的线形图
+  
+  渐进稳定分支的流水线图
+  
+  使用不同层次的稳定性
+  
+#### 特性分支  
+  特性分支对任何规模的项目都适用，特性分支是一种短期分支，它被用来实现单一特性或相关工作。
+  
+### 远程分支  
+  远程引用是对远程仓库的引用(指针)，包括分支、标签等等。查看远程引用信息
+  ```
+  git ls-remote
+  
+  git remote show
+  ```
+  
+  远程跟踪分支是远程分支状态的引用。它们是你不能移动的本地引用，当你做任何网络通信操作时，它们会自动移动。远程跟踪分支像是你上次连接到远程仓库时，那些分支所处状态的书签。
+  
+  它们以(remote)/(branch)形式命名，例如你想看你最后一次与远程仓库origin通信时master分支的状态，你可以查看origin/master分支。
+  
+  你与同事合作解决了一个问题，并且他们推送了一个iss53分支，你可能有自己本地的iss53分支，但是服务器上的分支会指向origin/iss53分支
+  
+  假设你的网络中有一个Git服务器，如果你从这里克隆，Git的clone命令会为你自动将其命名为origin，拉取它的数据，创建一个指向它的master分支的指针，并且在本地将其命名为origin/master，Git也会给你一个与origin的master分支在指向同一个地方的master分支，这样你就有工作的基础。
+  
+  "master"是当你运行git init时默认的起始分支名字，原因在于它的广泛使用；"origin"是当你运行git clone时默认的远程仓库的名字，如果你运行
+  ```
+  git clone -o booyah
+  ```
+  那么你的默认远程分支名字将会是booyah/master
+  
+  如果你要同步你的工作，运行git fetch origin，从中抓取本地没有的数据，并且更新本地数据库，移动origin/master指针指向新的、更新后的位置。
+  
+#### 推送
+  当你想要公开分享一个分支时，需要将其推送到有写入权限的远程仓库上。本地的分支并不会自动与远程仓库同步--你必须显式地推送想要分享的分支。
+  
+  这样你就可以把不愿意分享的内容放在私人分支上，而将需要和别人协作的内容推送到公开分支。
+  
+  ```
+  git push origin serverfix
+  ```
+  Git会自动将serverfix分支名字展开为refs/heads/serverfix:refs/heads/serverfix，那意味着，"推送本地的serverfix分支来更新远程仓库的serverfix分支"。如果不想让远程仓库上的分支叫做serverfix，可以运行
+  ```
+  git push origin serverfix:awesomebranch
+  ```
+  来将本地的serverfix分支推送到远程仓库上的awesomebranch分支，下次其他协作者从服务器上抓取数据时，他们会在本地生成一个远程分支origin/serverfix,指向服务器的serverfix分支
+  
+  ```
+  将这些工作合并到当前所在分支
+  git merge origin/serverfix
+  
+  git checkout -b serverfix origin/serverfix
+  ```
+
+#### 跟踪分支
+  从一个远程分支检出一个本地分支会自动创建一个叫做"跟踪分支"(有时候也叫"上游分支")。跟踪分支是与远程分支有直接关系的本地分支，如果在一个跟踪分支上输入git pull，Git能够自动识别去哪个服务器上抓取、合并到哪个分支
+  
+  ```
+  git checkout -b [branch] [remotename]/[branch]
+  
+  git checkout --track origin/serverfix
+  
+  将本地分支与远程分支设置为不同的名字，你可以轻松增加一个不同的名字
+  git checkout -b sf origin/serverfix
+  
+  修改上游分支(-u/--set-upstream-to)
+  git branch -u origin/serverfix
+  
+  查看所有跟踪分支
+  git branch -vv
+  ```
+  
+  需要重点注意的一点是这些数字的值来自于你从每一个服务器上最后一次抓取的数据，这个命令并没有链接到服务器，它只会告诉你关于本地缓存的服务器数据。如果要想统计最新的领先与落后的数字，需要在运行此命令之前抓取所有的远程仓库
+  ```
+  git fetch --all
+  
+  git branch -vv
+  ```
+  
+#### 拉取
+  当git fetch命令抓取那个服务器上抓取没有的数据时，它并不会修改工作目录中的内容。它只会获取数据后然你自己合并。
+  
+  有一个命令叫做git pull在大多数情况下它的含义是一个git fetch紧接着一个git merge命令。
+  
+  如果
   
   
   
@@ -535,8 +625,12 @@
   
   
   
-  **_P58_**
   
+  
+  
+  
+  
+  **_P73_**  
   
 ## 10. Git内部原理
   从根本上来说，Git是一个内容寻址(content-addressable)文件系统。
@@ -571,19 +665,6 @@
   index文件保存暂存区信息
   
 ### Git对象  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 
 ## My Reference
   * [Pro Git](https://git-scm.com/book/en/v2)
