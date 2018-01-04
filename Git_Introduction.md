@@ -615,7 +615,50 @@
   基本上这个命令做的只是从服务器上移除这个指针。Git服务器通常会保留数据一段时间知道垃圾回收运行，所以如果不小心删除掉了，通常时很容易恢复的。
   
 ### 变基
-
+  Git整合来自不同分支的修改主要有两种方法:
+  * merge
+  * rebase
+  
+  你可以在C4中引入的补丁和修改，然后在C3上的基础上再应用一次。Git中，这种操作就叫做变基。你可以使用rebase命令将提交到某一分支上的所有修改都移至另一个分支上，就好像重新播放。
+  
+  ```
+  git checkout experiment
+  git rebase master
+  
+  git checkout master
+  git merge experiment
+  ```  
+  
+  这两种整合方法的最终结果没有区别，但是变基使得提交历史更加整洁。你在查看一个变基的历史记录时会发现，尽管实际的开发工作是并行的，但是它们看上去就像是先后串行的一样，提交历史时一条直线没有分叉。
+  
+  变基是将一系列提交按照原有次序一次应用到另一分支上，而合并把最终结果合并在一起。
+  
+  一般我们这样做的目的是为了确保在向远程分支推送时能保持提交历史的整洁--例如向别人维护的项目贡献代码。在这种情况下，你首先在自己的分支里进行开发，在开发完成后你需要先将你的代码变基到origin/master上，然后再向主项目提交修改。这样的话，该项目的维护者就不再需要进行整合工作，只需要快进合并即可。
+  
+  ```
+  取出client分支，找出处于client分支和server分支的共同祖先之后的修改，然后把它们在master分支上重演一遍
+  git rebase --onto master server
+  
+  快进master分支
+  git checkout master
+  git merge client
+  
+  git rebase [basebranch] [topicbranch]
+  git rebase master server
+  
+  快进master分支
+  git checkout master
+  git merge server
+  
+  删除分支
+  git branch -d client
+  git branch -d server
+  ```
+  
+#### 变基的风险  
+  **_不要对你的仓库外有副本的分支执行变基_**。
+  
+  变基操作实质上时丢弃一些现有的提交，然后相应地新建一些内容一样但是实际上不同的提交。如果你已经将提交推送到某个仓库，而其他人已经从该仓库拉取提交并进行了后续工作，此时，由于你用git rebase命令
   
   
   
