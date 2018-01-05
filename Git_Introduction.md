@@ -824,7 +824,48 @@
   
 ### 维护项目  
 #### 在特性分支中工作  
+  如果你想在项目中整合一些新东西，最好将这些尝试局限在特性分支--这样便于调整补丁。
+  ```
+  基于master分支建立特性分支
+  git branch sc/ruby_client master
   
+  同时切换到新分支
+  git branch -b sc/ruby_client master
+  ```
+  
+#### 来自邮件的补丁  
+  如果你通过电子邮件收到了一个需要整合进入项目的补丁，你需要将其应用到特性分支中进行评估:
+  * git apply
+  * git am
+  
+  ```
+  应用由git diff/unix diff创建的补丁
+  git apply /tmp/patch-ruby-client.patch
+  ```
+  这样会修改工作目录中的文件，它与运行patch -p1命令来应用补丁几乎是等效的。git apply采用了一种"apply all or abort all"的模型，而patch可能会导致补丁文件被部分应用，最后使你的工作目录保持一个比较奇怪的状态。
+  
+  在实际应用补丁之前，你可以使用git apply --check:
+  ```
+  git apply --check 0001-seeing-if-this-helps-the-gem.patch
+  ```
+  如果没有产生输出，补丁可以顺利应用。
+  
+  如果补丁的贡献者也是Git用户，并且其能熟练使用format-patch命令来生成补丁
+  
+  如果可能的话，请鼓励贡献者使用format-patch而不是diff来为你生成补丁。而只有老式的补丁，你才能使用git apply命令。  
+  ```
+  git am 0001-limit-log-function.patch
+  
+  (fix the file)
+  git add ticgit.gemsec
+  git am --resolved
+  
+  -3选项对于应用有冲突的补丁时更加明智的选择
+  git am -3 0001-seeing-if-this-help-the-gem.patch
+  
+  -i交互模式
+  git am -3 -i mbox
+  ```
   
   
   
