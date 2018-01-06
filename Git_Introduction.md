@@ -868,16 +868,51 @@
   ```
   
 #### 检出远程分支 
-  如果你的贡献者建立了自己
+  如果你的贡献者建立了自己的版本库，并且向其中推送了若干修改，之后将版本库的URL和包含更改的远程分支发送给你，那么你可以为其添加一个远程分支，并且进行合并。  
+  ```
+  git remote add jessica git://github.com/jessica/myproject.git
+  git fetch jessica
+  git checkout -b rubyclient jessica/ruby-client
   
+  如果她再次发邮件说另一个分支包含另一个优秀的功能，因为之前已经设置好远程分支了，你就可以直接进行抓取及检出操作。
+  这种方式的另一种优点是你可以同时得到提交历史。
+  ```
   
+  对于非持续性的合作:
+  ```
+  git pull https://github.com/onetimeguy/project
+  ```
   
+#### 确定引入了哪些东西
+  你已经有了一个包含其他人贡献的特性分支，你可以决定如何处理它们，本节的命令，便与你检查若将其合并入主分支所引入的修改。
   
+  一般来说，你应该对该分支中所有master分支未包含的提交进行检查。通过在分支名称前加入--not选项，你可以排除master分支中的提交
+  ```
+  git log contrib --not master
   
+  查看每次提交中的修改
+  git log -p contrib --not master
   
+  查看该分支与另一个分支的完整diff,Git会直接将该特性分支与master分支的最新提交快照进行比较
+  git diff master
   
+  手工方式找出公共祖先
+  git merge-base contrib master
+  git diff 36c7db
   
+  这种做法比较麻烦，Git提供了一种比较快捷的方式:三点语法
+  git diff master...contrib
+  ```
   
+#### 将贡献的工作整合进来 
+  合并工作流
+  
+  两阶段合并循环(master/develop)(当人们克隆你项目的版本库后，既可以检出master分支以构建最新的稳定版本更新，也可以检查含更多东西的develop分支)
+  
+  大项目合并工作流(master/next(安全的特性分支)/pu(proposed updates)/maint(用于维护性向后一直工作))
+  
+#### Rerere  
+   如果你在进行大量的合并或变基，或维护一个长期的特性分支，rerere是"重用已记录的冲突解决方案(reuse recorded resolution)"
   
   
   
