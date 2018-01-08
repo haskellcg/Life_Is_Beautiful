@@ -3,6 +3,7 @@
   * [侯捷]()
   * [阮一峰](http://www.ruanyifeng.com/home.html)
   * [廖雪峰](https://www.liaoxuefeng.com/)
+  * [当今敢于说真话的四个人](http://blog.sina.com.cn/s/blog_1450d5e680102w22s.html)
 
 ## Book Examples
   * [Oreilly Books](https://resources.oreilly.com/examples)
