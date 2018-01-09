@@ -913,6 +913,42 @@
   
 #### Rerere  
    如果你在进行大量的合并或变基，或维护一个长期的特性分支，rerere是"重用已记录的冲突解决方案(reuse recorded resolution)"
+   ```
+   配置选项
+   git config --global rerere.enabled true
+   
+   命令
+   git rerere
+   ```
+   单独调用它，Git会检查解决方案数据库，尝试寻找一个和当前任意冲突相关的匹配并解决冲突
+   
+#### 为发布打标签   
+  当你决定进行一次发布时，你可能想要留下一个标签，这样之后的任何一个提交点都可以重新创建该发布。
+  ```
+  git tag -s v1.5 -m 'my signed 1.5 tag'
+  
+  如果你为标签签名了，你可能会遇到分发用来签名的PGP公钥问题，
+  方法是在版本库中以blob对象形式包含它们的公钥，并添加一个直接指向该内容的标签
+  gpg --list-keys
+  
+  gpg -a --export F721C45A | git hash-object -w --stdin
+  
+  既然Git中已经包含你的Key的内容了
+  git tag -a maintainer-gpg-pub 659...b92
+  
+  将maintainer-gpg-pub标签共享给所有人
+  git push --tags
+  
+  需要检验标签的人可以通过数据库中直接拉取blob对象并导入GPG
+  git show maintainer-gpg-pub | gpg --import
+  ```
+  
+#### 生成一个构建号  
+  Git中不存在随每次提交递增"v123"之类的数字序列，如果你想为提交附上一个可读的名称
+  ```
+  git describe master
+  ```
+  
   
   
   
