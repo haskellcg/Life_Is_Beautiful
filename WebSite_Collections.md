@@ -20,6 +20,9 @@
 ## FrontEnd
   * [Bootstrap](http://www.bootcss.com)
 
+## Game
+  * [Top20](https://www.hltv.org/news/22348/top-20-players-of-2017-introduction)
+
 ## Git
   * [Pro-Git](https://progit.bootcss.com)
   * [Git in Github](https://github.com/git)
