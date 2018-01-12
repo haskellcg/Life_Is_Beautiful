@@ -165,6 +165,12 @@
   git rm --cached README
   git rm log/\\*.log
   git rm \\*~
+  
+  撤销提交
+  --hard: 彻底回到某个版本，本地的源代码也会变成上一个版本的内容
+  --soft: 回退到某个版本，只回退到commit信息，不会恢复到index file一级，如果还要提交，直接commit
+  --mixed: 默认方式，不带任何参数， 会退到某个版本，只保留源代码，回退commit和index信息
+  git reset [--hard|--soft|--mixed] commit_id  
   ```
   
   移动文件
