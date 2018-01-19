@@ -1,3 +1,4 @@
+
 # Vim
 ## 自定义配置
   Vim自定义配置通过一下命令实现:
@@ -10,6 +11,7 @@
   set nu
   set tabstop=4
   set expandtab
+  set shiftwidth
   set ai
   syntax on
   ```
