@@ -47,3 +47,7 @@
   Vim|[参考个人vimrc设置](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/Vim_HotKeys_List.md)
   Visual Studio|工具 => 选项 => 文本编辑器 => C# => 制表符
   
+## Set Widnows' CMD Title
+  ```
+  title My_Title
+  ```
