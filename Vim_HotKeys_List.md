@@ -135,10 +135,10 @@
   3~|更改后面3个字母的大小写
   e|移动到单词结尾
   E|移动到单词结尾(忽略标点符号)
+  Ctrl + s|暂停终端(Ctrl + q)
   
 ## ctags
-  
-  
-  
+  暂时无法添加
+  
 ## My References
   * [vim 常用快捷键](https://www.cnblogs.com/tianyajuanke/archive/2012/04/25/2470002.html)
