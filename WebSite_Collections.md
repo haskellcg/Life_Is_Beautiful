@@ -50,6 +50,7 @@
   * [simple](https://pypi.python.org/simple)  
   * [python-whl](https://www.lfd.uci.edu/%7Egohlke/pythonlibs/)
   * [Mayavi](http://docs.enthought.com/mayavi/mayavi/index.html)
+  * [GTAV opencv](https://pythonprogramming.net/open-cv-basics-python-plays-gta-v)
 
 ## Processing [Programming Language]
   * [Official Website](https://www.processing.org)
