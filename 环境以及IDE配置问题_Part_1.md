@@ -1,3 +1,6 @@
+## Git Bash设置为Glass还挺好看的
+  ![是这样的](https://github.com/haskellcg/Blog_Pictures/blob/master/git_bash_glass.PNG)
+
 ## pycharm 如何设置查找文件的库路径起始点？
   情况是这样的，打开python项目，发现import的库并不是相对于现在打开的跟目录，而是其他目录，设置方式:
   * File -> Setting -> Project:xxx -> Project Struct -> Add Content Root
@@ -25,10 +28,7 @@
 ## warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
   这是我在编写OpenGL测试项目时遇到的，主要是现在编译选项与库的编译选项不一致，解决方法就是使用库的编译选项:
   * c/c++ -> Code Generation -> Runtime library -> 修改/MD为/MT
-  
-## Git Bash设置为Glass还挺好看的
-  * ![是这样的](https://github.com/haskellcg/Blog_Pictures/blob/master/git_bash_glass.PNG)
-  
+    
 ## VPN在Win7_x64初次连接失败，错误代码789
   这个问题目前不清楚为什么，按照下面的操作即可:
   * 打开注册表
