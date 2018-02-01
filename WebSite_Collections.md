@@ -59,6 +59,9 @@
   
 ## Qt
   * [Qt](http://download.qt.io/official_releases)
+  
+## 区块链 
+  * [区块链、比特币](https://yeasy.gitbooks.io/blockchain_guide/content/)
 
 ## Unknown Place
   * [lfd](https://www.lfd.uci.edu)
