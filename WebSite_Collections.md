@@ -65,7 +65,8 @@
   * [Qt](http://download.qt.io/official_releases)
   
 ## 区块链 
-  * [区块链、比特币](https://yeasy.gitbooks.io/blockchain_guide/content/)
+  * [区块链、比特币GitBook](https://yeasy.gitbooks.io/blockchain_guide/content/)
+  * [BitCoin](https://bitcoin.org/en/)
   * [blockchain](https://blockchain.info/)
   * [比特币白皮书](https://github.com/GammaGao/bitcoinwhitepaper)
   * [巴比特](http://www.8btc.com/)
