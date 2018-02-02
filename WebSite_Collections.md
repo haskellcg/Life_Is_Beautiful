@@ -29,6 +29,7 @@
   * [Git GUIs](https://git-scm.com/downloads/guis)
   * [Github Desktop](https://desktop.github.com/)
   * [GitLab](https://about.gitlab.com/)
+  * [GitBook](https://www.gitbook.com/)
    
 ## GTK+
   * [For Cairo](https://gtk-win.sourceforge.io/home/)
