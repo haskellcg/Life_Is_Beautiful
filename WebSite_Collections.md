@@ -85,4 +85,4 @@
   * [chomo](http://chomovpn.com/login/)
   * [Jocent Zhou](https://jocent.me/)
   * [Prism Break](https://prism-break.org/zh-CN/)
-  * [DateCoin](www.datecoin.io)
+  * [DateCoin](https://datecoin.io/?lang=cn)
