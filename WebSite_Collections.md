@@ -23,6 +23,9 @@
   * [dlib](http://dlib.net/)
   * [dlib_books_recommended](http://dlib.net/books.html)
   * [khronos](https://www.khronos.org/)
+  
+## Docker
+  * [Docker GitBook](https://www.gitbook.com/book/yeasy/docker_practice/details)
 
 ## FrontEnd
   * [Bootstrap](http://www.bootcss.com)
