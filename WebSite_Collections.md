@@ -67,6 +67,7 @@
 ## 区块链 
   * [区块链、比特币](https://yeasy.gitbooks.io/blockchain_guide/content/)
   * [blockchain](https://blockchain.info/)
+  * [比特币白皮书](https://github.com/GammaGao/bitcoinwhitepaper)
 
 ## Unknown Place
   * [lfd](https://www.lfd.uci.edu)
