@@ -51,3 +51,9 @@
   ```
   title My_Title
   ```
+  
+## Addr2Line
+  * [addr2line](http://blog.csdn.net/lhf_tiger/article/details/9088609)
+  
+## Failed to run the WC DB work queue associated with
+  * [solution](https://stackoverflow.com/questions/22362823/failed-to-run-the-wc-db-work-queue-associated-with-file)
