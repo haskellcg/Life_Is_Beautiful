@@ -1,3 +1,6 @@
+## Algorithms
+  * [Paxos](https://www.zhihu.com/question/19787937)
+
 ## Blogs
   * [云风](https://blog.codingnow.com/)
   * [侯捷]()
