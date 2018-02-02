@@ -37,6 +37,7 @@
   * [Github Desktop](https://desktop.github.com/)
   * [GitLab](https://about.gitlab.com/)
   * [GitBook](https://www.gitbook.com/)
+  * [PingCAP](https://github.com/pingcap)
    
 ## GTK+
   * [For Cairo](https://gtk-win.sourceforge.io/home/)
@@ -74,6 +75,9 @@
   * [blockchain](https://blockchain.info/)
   * [比特币白皮书](https://github.com/GammaGao/bitcoinwhitepaper)
   * [巴比特](http://www.8btc.com/)
+  * [HyperLedger](https://www.hyperledger.org/)
+  * [HyperLedger Git](https://github.com/hyperledger/)
+  * [Etherum](https://ethereum.org/)  
 
 ## Unknown Place
   * [lfd](https://www.lfd.uci.edu)
