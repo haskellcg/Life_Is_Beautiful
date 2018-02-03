@@ -93,3 +93,4 @@
   * [Jocent Zhou](https://jocent.me/)
   * [Prism Break](https://prism-break.org/zh-CN/)
   * [DateCoin](https://datecoin.io/?lang=cn)
+  * [uBlock](https://github.com/mun3/F-ckAvgleAntiAdblock)
