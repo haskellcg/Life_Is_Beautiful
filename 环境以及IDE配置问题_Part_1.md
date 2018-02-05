@@ -57,3 +57,7 @@
   
 ## Failed to run the WC DB work queue associated with
   * [solution](https://stackoverflow.com/questions/22362823/failed-to-run-the-wc-db-work-queue-associated-with-file)
+  
+## Source Insight配置
+  * 添加目录，并解析所有下面的文件：配置中选择"Add Tree"
+  * 修改字体:Option => Document Options... => Screen Fonts
