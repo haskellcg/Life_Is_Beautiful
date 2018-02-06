@@ -26,6 +26,9 @@
   
 ## Docker
   * [Docker GitBook](https://www.gitbook.com/book/yeasy/docker_practice/details)
+  
+## Editor  
+  * [Atom](https://atom.io/)
 
 ## FrontEnd
   * [Bootstrap](http://www.bootcss.com)
