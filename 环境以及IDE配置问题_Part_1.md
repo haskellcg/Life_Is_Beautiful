@@ -61,3 +61,6 @@
 ## Source Insight配置
   * 添加目录，并解析所有下面的文件：配置中选择"Add Tree"
   * 修改字体:Option => Document Options... => Screen Fonts
+  
+## 如何输出"□■"
+  * QQ拼音输入"fk"
