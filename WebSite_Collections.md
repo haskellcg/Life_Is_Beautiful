@@ -8,6 +8,9 @@
   * [阮一峰](http://www.ruanyifeng.com/home.html)
   * [廖雪峰](https://www.liaoxuefeng.com/)
   * [当今敢于说真话的四个人](http://blog.sina.com.cn/s/blog_1450d5e680102w22s.html)
+  * [CNBlogs](https://www.cnblogs.com/)
+  * [51CTOBlog](http://blog.51cto.com/)
+  * [CSDN](https://www.csdn.net/)
 
 ## Book Examples
   * [Oreilly Books](https://resources.oreilly.com/examples)
@@ -55,6 +58,12 @@
 ## GTK+
   * [For Cairo](https://gtk-win.sourceforge.io/home/)
   * [For Cairo](http://win32builder.gnome.org/)
+ 
+## IT_News  
+  * [CNBeta](http://www.cnbeta.com/)  
+  
+## Jobs
+  * [大街网](https://www.dajie.com/)  
   
 ## Linux
   * [kernel](https://www.kernel.org/)
@@ -71,6 +80,9 @@
   
 ## Music
   * [Music used now](http://music.163.com/#/my/m/music/playlist?id=448584440)
+  
+## Net_Disk
+  * [Baidu Net Disk](https://pan.baidu.com)
 
 ## Python
   * [zulko](http://zulko.github.io)
