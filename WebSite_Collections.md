@@ -15,6 +15,9 @@
   
 ## City Site  
   * [西安人力资源以及社会保障局](http://www.xahrss.gov.cn/fwdt/)
+  
+## C++
+  * [CPlusPlus](http://www.cplusplus.com/)
 
 ## Data Base
   * [PingCAP](https://www.pingcap.com/)
@@ -65,6 +68,9 @@
   
 ## Motorcycle
   * [Motorcycle](http://motorcycle.sh.cn/portal.php)
+  
+## Music
+  * [Music used now](http://music.163.com/#/my/m/music/playlist?id=448584440)
 
 ## Python
   * [zulko](http://zulko.github.io)
@@ -72,6 +78,8 @@
   * [python-whl](https://www.lfd.uci.edu/%7Egohlke/pythonlibs/)
   * [Mayavi](http://docs.enthought.com/mayavi/mayavi/index.html)
   * [GTAV opencv](https://pythonprogramming.net/open-cv-basics-python-plays-gta-v)
+  * [Microsoft PTVS](https://github.com/Microsoft/PTVS/releases?after=dev-2016-05-27)
+  * [Python Tools for Visual Studio](https://microsoft.github.io/PTVS/)
 
 ## Processing [Programming Language]
   * [Official Website](https://www.processing.org)
