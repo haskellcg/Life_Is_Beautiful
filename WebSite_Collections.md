@@ -121,6 +121,7 @@
   * [Prism Break](https://prism-break.org/zh-CN/)
   * [DateCoin](https://datecoin.io/?lang=cn)
   * [uBlock](https://github.com/mun3/F-ckAvgleAntiAdblock)
+  * [初雨团队-Dism++](http://www.chuyu.me/zh-Hans/index.html)
   
 ## Email  
   <a target="_blank" 
