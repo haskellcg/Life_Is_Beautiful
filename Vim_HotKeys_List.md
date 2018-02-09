@@ -89,7 +89,7 @@
   H|Home
   M|Middle
   L|Last
-  Ctrl + G|当前位置
+  Ctrl + G|当前位置,显示总行数以及当前进度
   Ctrl + u/d|向上/下滚动半屏
   Ctrl + e/y|向上/下滚动一行
   Ctrl + b/f|向上/下滚动一屏
