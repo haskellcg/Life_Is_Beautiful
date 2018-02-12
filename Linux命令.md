@@ -10,3 +10,9 @@
   cat * | wc -l
   cat * | wc
   ```
+  
+## 3. 修改文件的拥有者以及组
+  ```
+  chown -R haskell test.cpp
+  chgrp -R haskell test.cpp
+  ```
