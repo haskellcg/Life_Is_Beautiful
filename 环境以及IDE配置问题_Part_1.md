@@ -64,3 +64,10 @@
   
 ## 14. 如何输出"□■"
   * QQ拼音输入"fk"
+
+## 15. Linux与Windows共享目录，更新svn显示"WC DB"失败
+  * 观察是由于在Linux下创建的文件在用户组时root，而windows下svn更新时使用的是haskell，而haskell没有权限，将文件权限修改即可
+  ```
+  chown -R haskell newfile.*
+  chgrp -R haskell newfile.*
+  ```
