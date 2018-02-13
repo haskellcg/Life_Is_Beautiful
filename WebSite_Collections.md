@@ -1,4 +1,4 @@
-## 目录
+[![catalog][catalog-img]]()
   * [Algorithms](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#algorithms)
   * [Blogs](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#blogs)
   * [Book Examples](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#book-examples)
@@ -27,6 +27,10 @@
   * [区块链](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#%E5%8C%BA%E5%9D%97%E9%93%BE)
   * [Unknown Place](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#unknown-place)
   * [★Email★](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#email)
+  
+  [catalog-img]:https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg
+
+
 
 ## Algorithms
   * [Paxos](https://www.zhihu.com/question/19787937)
