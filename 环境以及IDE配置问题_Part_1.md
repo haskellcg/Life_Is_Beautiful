@@ -14,7 +14,7 @@
   * [13. Source Insight配置](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#13-source-insight%E9%85%8D%E7%BD%AE)
   * [14. 如何输出"□■"](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#14-%E5%A6%82%E4%BD%95%E8%BE%93%E5%87%BA)
   * [15. Linux与Windows共享目录，更新svn显示"WC DB"失败](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#15-linux%E4%B8%8Ewindows%E5%85%B1%E4%BA%AB%E7%9B%AE%E5%BD%95%E6%9B%B4%E6%96%B0svn%E6%98%BE%E7%A4%BAwc-db%E5%A4%B1%E8%B4%A5)
-  * [16. GitHub更换邮件地址后会造成活动表清空]()
+  * [16. GitHub更换邮件地址后会造成活动表清空](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#16-github%E6%9B%B4%E6%8D%A2%E9%82%AE%E4%BB%B6%E5%9C%B0%E5%9D%80%E5%90%8E%E4%BC%9A%E9%80%A0%E6%88%90%E6%B4%BB%E5%8A%A8%E8%A1%A8%E6%B8%85%E7%A9%BA)
   
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md
