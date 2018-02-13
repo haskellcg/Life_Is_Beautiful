@@ -1,4 +1,5 @@
-[![catalog][catalog-img]]()
+[![catalog][catalog_img]][catalog_link]
+
   * [Algorithms](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#algorithms)
   * [Blogs](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#blogs)
   * [Book Examples](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#book-examples)
@@ -28,7 +29,8 @@
   * [Unknown Place](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#unknown-place)
   * [★Email★](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#email)
   
-  [catalog-img]:https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg
+[catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg  
+[catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/edit/master/WebSite_Collections.md
 
 
 
