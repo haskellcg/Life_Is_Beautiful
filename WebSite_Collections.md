@@ -30,7 +30,7 @@
   * [★Email★](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#email)
   
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg  
-[catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/edit/master/WebSite_Collections.md
+[catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md
 
 
 
