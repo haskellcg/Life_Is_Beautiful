@@ -25,6 +25,7 @@
   * [Net_Disk](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#net_disk)
   * [Python](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#python)
   * [Processing \[Programming Language\]](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#processing-programming-language)
+  * [QQ](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#qq)
   * [Qt](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#qt)
   * [区块链](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#%E5%8C%BA%E5%9D%97%E9%93%BE)
   * [Unknown Place](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#unknown-place)
@@ -139,7 +140,10 @@
 
 ## Processing [Programming Language]
   * [Official Website](https://www.processing.org)
-  
+
+## QQ
+  * [绑定手机更改](https://aq.qq.com/cn2/index)
+
 ## Qt
   * [Qt](http://download.qt.io/official_releases)
   
