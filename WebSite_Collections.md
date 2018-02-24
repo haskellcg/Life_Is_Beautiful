@@ -15,6 +15,7 @@
   * [Git](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#git)
   * [GTK+](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#gtk)
   * [IT_News](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#it_news)
+  * [Japanese](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#japanese)
   * [Jobs](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#jobs)
   * [Linux](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#linux)
   * [Linux Shell On Windows](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#linux-shell-on-windows)
@@ -101,6 +102,9 @@
  
 ## IT_News  
   * [CNBeta](http://www.cnbeta.com/)  
+  
+## Japanese
+  * [B站日语教程](https://www.bilibili.com/video/av1111459/)
   
 ## Jobs
   * [大街网](https://www.dajie.com/)  
