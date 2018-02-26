@@ -106,6 +106,7 @@
   
 ## Japanese
   * [B站日语教程](https://www.bilibili.com/video/av1111459/)
+  * [日语语音](http://jp.tingroom.com/)
   
 ## Jobs
   * [大街网](https://www.dajie.com/)  
