@@ -102,7 +102,8 @@
   * [For Cairo](http://win32builder.gnome.org/)
  
 ## IT_News  
-  * [CNBeta](http://www.cnbeta.com/)  
+  * [CNBeta](http://www.cnbeta.com/) 
+  * [MWC 2018](http://mwc.zol.com.cn/?from=bd#mod3)
   
 ## Japanese
   * [B站日语教程](https://www.bilibili.com/video/av1111459/)
