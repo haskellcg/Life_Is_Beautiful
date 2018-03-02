@@ -107,6 +107,7 @@
   
 ## Japanese
   * [B站日语教程](https://www.bilibili.com/video/av1111459/)
+  * [B站日语教程](https://www.bilibili.com/video/av2163496)
   * [听力单词练习](http://jp.tingroom.com/tingli/bxwsrydcs/7292.html)
   * [日语语音](http://jp.tingroom.com/)
   
