@@ -117,3 +117,7 @@
   * 路由器的无线设备控制要添加改插座
   * 连不上时重置插座[按住插座开关，直到灯变为黄色]
   
+## 20. steam重新下载游戏出现错误"content is still encrypted"
+  * [Solution](https://appuals.com/fix-steam-content-still-encrypted/)
+  * appmanifest文件删除并重新下载游戏
+  
