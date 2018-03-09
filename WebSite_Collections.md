@@ -107,12 +107,13 @@
   * [MWC 2018](http://mwc.zol.com.cn/?from=bd#mod3)
   
 ## Japanese
-  * [B站日语教程](https://www.bilibili.com/video/av1111459/)
-  * [B站日语教程](https://www.bilibili.com/video/av2163496)
-  * [课程单词](https://www.bilibili.com/video/av3060477)
-  * [听力单词练习](http://jp.tingroom.com/tingli/bxwsrydcs/7292.html)
-  * [听力练习Youtube]()
-  * [日语语音](http://jp.tingroom.com/)  
+  * [B站日语教程-50音](https://www.bilibili.com/video/av1111459/)
+  * [B站日语教程-拗音](https://www.bilibili.com/video/av2163496)
+  * [B站日语教程-课程单词](https://www.bilibili.com/video/av3060477)
+  * [听力室-课程单词](http://jp.tingroom.com/tingli/biaozhunriyu/4.html)
+  * [听力室-单词练习](http://jp.tingroom.com/tingli/bxwsrydcs/7292.html)
+  * [Youtube-日常语句]()
+  * [日语室](http://jp.tingroom.com)  
   
 ## Jobs
   * [大街网](https://www.dajie.com/)  
