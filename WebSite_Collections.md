@@ -4,6 +4,7 @@
   * [Blogs](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#blogs)
   * [Book Examples](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#book-examples)
   * [证明](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#%E8%AF%81%E6%98%8E)
+  * [Cartoon](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#cartoon)
   * [City Site](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#city-site)
   * [C++](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#c)
   * [Data Base](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#data-base)
@@ -56,6 +57,9 @@
   
 ## 证明
   * [CET4证明](http://chaxun.neea.edu.cn/)
+  
+## Cartoon
+  * [钢铁神兵](https://www.bilibili.com/video/av1024369)
   
 ## City Site  
   * [西安人力资源以及社会保障局](http://www.xahrss.gov.cn/fwdt/)
