@@ -21,7 +21,7 @@
   * [20. steam重新下载游戏出现错误"content is still encrypted"](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#20-steam%E9%87%8D%E6%96%B0%E4%B8%8B%E8%BD%BD%E6%B8%B8%E6%88%8F%E5%87%BA%E7%8E%B0%E9%94%99%E8%AF%AFcontent-is-still-encrypted)
   * [21. 程序崩溃后没有产生dump文件](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#21-%E7%A8%8B%E5%BA%8F%E5%B4%A9%E6%BA%83%E5%90%8E%E6%B2%A1%E6%9C%89%E4%BA%A7%E7%94%9Fdump%E6%96%87%E4%BB%B6)
   * [22. CSGO头像无法显示](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#22-csgo%E5%A4%B4%E5%83%8F%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA)
-  * [23. 解决eNSP路由器一直输出"##"的问题]()
+  * [23. 解决eNSP路由器一直输出"##"的问题](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#23-%E8%A7%A3%E5%86%B3ensp%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B8%80%E7%9B%B4%E8%BE%93%E5%87%BA%E7%9A%84%E9%97%AE%E9%A2%98)
   
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md
