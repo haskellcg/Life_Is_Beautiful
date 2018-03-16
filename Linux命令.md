@@ -16,3 +16,9 @@
   chown -R haskell test.cpp
   chgrp -R haskell test.cpp
   ```
+
+## 4. 远程复制目录
+  ```
+  scp -r source_folder dest_folder
+  scp -r /root/lk root@43.224.34.73:/home/lk/cpfile
+  ```
