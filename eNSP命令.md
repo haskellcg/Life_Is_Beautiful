@@ -2,6 +2,7 @@
   * **sys/system-view**: enter system mode
   * **undo info-center enabel**: turn off echo messages that annoying users
   * **display ip interface brief**: show ip interface and thier state
+  * **display interface**: show mac address
   * **interface [interface-name]**: enter to [interface-name] interface for configure it
   * **ip address [ip] [mask-len]**: config ip address for interface
   * **ping [ip]**: ping command
