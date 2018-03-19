@@ -23,8 +23,8 @@
   * [22. CSGO头像无法显示](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#22-csgo%E5%A4%B4%E5%83%8F%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA)
   * [23. 解决eNSP路由器一直输出"##"的问题](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#23-%E8%A7%A3%E5%86%B3ensp%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B8%80%E7%9B%B4%E8%BE%93%E5%87%BA%E7%9A%84%E9%97%AE%E9%A2%98)
   * [24. eNSP保存设备配置](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#24-ensp%E4%BF%9D%E5%AD%98%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE)
-  * [25. 支付宝吱口令使用]()
-  * [26. 三星旧机回收在支付宝的使用]()
+  * [25. 支付宝吱口令使用](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#25-%E6%94%AF%E4%BB%98%E5%AE%9D%E5%90%B1%E5%8F%A3%E4%BB%A4%E4%BD%BF%E7%94%A8)
+  * [26. 三星旧机回收在支付宝的使用](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#26-%E4%B8%89%E6%98%9F%E6%97%A7%E6%9C%BA%E5%9B%9E%E6%94%B6%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E4%BD%BF%E7%94%A8)
   
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md
