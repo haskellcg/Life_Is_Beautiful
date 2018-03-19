@@ -23,6 +23,8 @@
   * [22. CSGO头像无法显示](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#22-csgo%E5%A4%B4%E5%83%8F%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA)
   * [23. 解决eNSP路由器一直输出"##"的问题](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#23-%E8%A7%A3%E5%86%B3ensp%E8%B7%AF%E7%94%B1%E5%99%A8%E4%B8%80%E7%9B%B4%E8%BE%93%E5%87%BA%E7%9A%84%E9%97%AE%E9%A2%98)
   * [24. eNSP保存设备配置](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#24-ensp%E4%BF%9D%E5%AD%98%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE)
+  * [25. 支付宝吱口令使用]()
+  * [26. 三星旧机回收在支付宝的使用]()
   
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md
@@ -144,3 +146,17 @@
   * 首先配置路由器等设备
   * 配置完毕后，在命令行中输入"<huawei>save all" -> "y"
   * 最后点击保存项目图标保存，如果不点击设备的配置项也不会保存
+ 
+## 25. 支付宝吱口令使用
+  * 添加新朋友->我的吱口令->别人复制你的字符串即可在app中使用  
+  * 同样的方法你复制别人的吱口令字符串->打开支付宝即可
+
+## 26. 三星旧机回收在支付宝的使用
+  * 使用S9活动的吱口令
+  * 打开支付宝app，即可打开活动页面
+  * 填写你需要回收的旧机的信息，并进行评估
+  * 授权芝麻信用等信息
+  * 添加回收地址、时间等信息
+  * 提交，收到预付款(一般为50%)
+  * 后面向查看自己的订单可以查找app"爱回收"
+  * 这个方法和直接在三星生活app中的估价一样，只不过可以预先收到50%的款项
