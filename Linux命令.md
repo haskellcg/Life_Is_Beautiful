@@ -22,3 +22,9 @@
   scp -r source_folder dest_folder
   scp -r /root/lk root@43.224.34.73:/home/lk/cpfile
   ```
+
+## 5. 通过XShell向Windows传输Linux中的文件
+  ```
+  rz filepath
+  sz filepath
+  ```
