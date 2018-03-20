@@ -25,6 +25,7 @@
   * [24. eNSP保存设备配置](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#24-ensp%E4%BF%9D%E5%AD%98%E8%AE%BE%E5%A4%87%E9%85%8D%E7%BD%AE)
   * [25. 支付宝吱口令使用](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#25-%E6%94%AF%E4%BB%98%E5%AE%9D%E5%90%B1%E5%8F%A3%E4%BB%A4%E4%BD%BF%E7%94%A8)
   * [26. 三星旧机回收在支付宝的使用](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#26-%E4%B8%89%E6%98%9F%E6%97%A7%E6%9C%BA%E5%9B%9E%E6%94%B6%E5%9C%A8%E6%94%AF%E4%BB%98%E5%AE%9D%E7%9A%84%E4%BD%BF%E7%94%A8)
+  * [27. 打开多个Linux终端时，希望在Windows开始的一栏就能区分出终端功能，在XShell的显示希望如下]()
   
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md
@@ -160,3 +161,11 @@
   * 提交，收到预付款(一般为50%)
   * 后面向查看自己的订单可以查找app"爱回收"
   * 这个方法和直接在三星生活app中的估价一样，只不过可以预先收到50%的款项
+  
+## 27. 打开多个Linux终端时，希望在Windows开始的一栏就能区分出终端功能，在XShell的显示希望如下
+  ![XShell_Title](https://github.com/haskellcg/Blog_Pictures/blob/master/XShell_Title.PNG)  
+  设置方法如下:  
+  * 在XShell初始页面设置需要连接的终端IP地址、用户名、密码
+  * 设置该连接的名称
+  * **设置终端类型为Linux，Linux类型测试可用，其他的不确定**
+  * 保存设置，打开即可
