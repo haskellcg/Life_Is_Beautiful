@@ -175,6 +175,8 @@
   * [cubic_motion](https://www.cubicmotion.com/)
   * [xbasic](http://www.xbasic.org)  
   * [shadowsock](http://sstizi.info/home/index)
+  * [SSR介绍](https://blog.csdn.net/marvel__dead/article/details/78495583)
+  * [SSR国内下载链接](https://www.i5seo.com/windows-mac-ios-android-settings-using-the-ss-ssr-tutorial-client-download/)
   * [Sifeng](wangluo@saifeng3.com)
   * [chomo](http://chomovpn.com/login/)
   * [Jocent Zhou](https://jocent.me/)
