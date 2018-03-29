@@ -5,7 +5,7 @@
   * [3. 主板切换BOIS，反复重启](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#3-%E4%B8%BB%E6%9D%BF%E5%88%87%E6%8D%A2bois%E5%8F%8D%E5%A4%8D%E9%87%8D%E5%90%AF)
   * [4. 现在SSD与HD一块使用，系统无法进入，卡在欢迎界面，而且安装操作系统也会卡在"展开文件(99%)"那一步](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#4-%E7%8E%B0%E5%9C%A8ssd%E4%B8%8Ehd%E4%B8%80%E5%9D%97%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%8D%A1%E5%9C%A8%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2%E8%80%8C%E4%B8%94%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E4%B9%9F%E4%BC%9A%E5%8D%A1%E5%9C%A8%E5%B1%95%E5%BC%80%E6%96%87%E4%BB%B699%E9%82%A3%E4%B8%80%E6%AD%A5)
   * [5. 内存四个插槽，我有两个8G的内存条，插的位置不一样会导致系统反复重启](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#5-%E5%86%85%E5%AD%98%E5%9B%9B%E4%B8%AA%E6%8F%92%E6%A7%BD%E6%88%91%E6%9C%89%E4%B8%A4%E4%B8%AA8g%E7%9A%84%E5%86%85%E5%AD%98%E6%9D%A1%E6%8F%92%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8D%E4%B8%80%E6%A0%B7%E4%BC%9A%E5%AF%BC%E8%87%B4%E7%B3%BB%E7%BB%9F%E5%8F%8D%E5%A4%8D%E9%87%8D%E5%90%AF)
-  * [6. MSI Z97 Gaming7 BIOS升级]()
+  * [6. MSI Z97 Gaming7 BIOS升级](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#6-msi-z97-gaming7-bios%E5%8D%87%E7%BA%A7)
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -17,9 +17,9 @@
   * 所以只需要将开关关闭即可，肯定是我哪天手残打开这个开关了
   
 ## 2. windows无法安装到这个磁盘.这台计算机的硬件可能不支持启动到此盘
-  * [1](https://www.cnblogs.com/dunitian/p/5035657.html)
-  * [2](https://jingyan.baidu.com/article/e8cdb32b66498b37052bad09.html)
-  * [3](http://www.windowszj.com/news/1626.html)
+  * [参考链接](https://www.cnblogs.com/dunitian/p/5035657.html)
+  * [参考链接](https://jingyan.baidu.com/article/e8cdb32b66498b37052bad09.html)
+  * [参考链接](http://www.windowszj.com/news/1626.html)
 
 ## 3. 主板切换BOIS，反复重启
 
