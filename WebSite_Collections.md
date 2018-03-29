@@ -50,6 +50,7 @@
   * [CNBlogs](https://www.cnblogs.com/)
   * [51CTOBlog](http://blog.51cto.com/)
   * [CSDN](https://www.csdn.net/)
+  * [大公司的开源项目](http://www.cnblogs.com/dunitian/p/5581520.html)
 
 ## Book Examples
   * [Oreilly Books](https://resources.oreilly.com/examples)
