@@ -22,6 +22,7 @@
   * [参考链接](http://www.windowszj.com/news/1626.html)
 
 ## 3. 主板切换BOIS，反复重启
+  * flash BIOS/set disk AHCI mode
 
 ## 4. 现在SSD与HD一块使用，系统无法进入，卡在欢迎界面，而且安装操作系统也会卡在"展开文件(99%)"那一步
 
