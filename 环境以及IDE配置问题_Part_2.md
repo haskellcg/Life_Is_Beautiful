@@ -25,7 +25,10 @@
   * flash BIOS/set disk AHCI mode
 
 ## 4. 现在SSD与HD一块使用，系统无法进入，卡在欢迎界面，而且安装操作系统也会卡在"展开文件(99%)"那一步
+  * flash BIOS/set disk AHCI mode
 
 ## 5. 内存四个插槽，我有两个8G的内存条，插的位置不一样会导致系统反复重启
+  * 
 
 ## 6. MSI Z97 Gaming7 BIOS升级
+  * Use USB to update BIOS
