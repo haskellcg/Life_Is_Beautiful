@@ -28,6 +28,7 @@
   * [27. 打开多个Linux终端时，希望在Windows开始的一栏就能区分出终端功能，在XShell的显示希望如下](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#27-%E6%89%93%E5%BC%80%E5%A4%9A%E4%B8%AAlinux%E7%BB%88%E7%AB%AF%E6%97%B6%E5%B8%8C%E6%9C%9B%E5%9C%A8windows%E5%BC%80%E5%A7%8B%E7%9A%84%E4%B8%80%E6%A0%8F%E5%B0%B1%E8%83%BD%E5%8C%BA%E5%88%86%E5%87%BA%E7%BB%88%E7%AB%AF%E5%8A%9F%E8%83%BD%E5%9C%A8xshell%E7%9A%84%E6%98%BE%E7%A4%BA%E5%B8%8C%E6%9C%9B%E5%A6%82%E4%B8%8B)
   * [28. 三星S9+关闭Bixby负一页方法](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#28-%E4%B8%89%E6%98%9Fs9%E5%85%B3%E9%97%ADbixby%E8%B4%9F%E4%B8%80%E9%A1%B5%E6%96%B9%E6%B3%95)
   * [29. JIRA显示Watched Issues](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md#29-jira%E6%98%BE%E7%A4%BAwatched-issues)
+  * [30. 组装台式机，现在每天开机都会出现"Press F1 to Setup; Press F2 to use default setting"，大概信息是这样的]()
   
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_1.md
@@ -180,3 +181,8 @@
 ## 29. JIRA显示Watched Issues
   * 选择"Issues" => "Search For Issues"
   * 添加过滤器"issue in watchedIssues() And assignee != currentUser() ORDER BY assignee ASC" 
+  
+## 30. 组装台式机，现在每天开机都会出现"Press F1 to Setup; Press F2 to use default setting"，大概信息是这样的
+  * 这个是由于主板的电池没电了，导致无法记录BIOS的设置
+  * 拆下主机，查看主板的纽扣电池的型号，一般都是2032
+  * 在狗东搜索2032即可
