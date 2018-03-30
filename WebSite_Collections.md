@@ -187,6 +187,10 @@
   * [uBlock](https://github.com/mun3/F-ckAvgleAntiAdblock)
   * [初雨团队-Dism++](http://www.chuyu.me/zh-Hans/index.html)
   * [Intel CPU Test Tools](https://downloadcenter.intel.com/download/19792/Intel-Processor-Diagnostic-Tool)
+  * [硬件信息](http://xiazai.zol.com.cn/detail/10/95849.shtml)
+  * [硬件信息](http://xiazai.zol.com.cn/detail/10/90576.shtml)
+  * [CPU Information](http://xiazai.zol.com.cn/detail/10/91178.shtml)
+  * [Hard Disk Information](http://xiazai.zol.com.cn/detail/36/359922.shtml)
   
 ## Email  
   <a target="_blank" 
