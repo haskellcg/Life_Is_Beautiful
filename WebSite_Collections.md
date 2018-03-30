@@ -186,6 +186,7 @@
   * [DateCoin](https://datecoin.io/?lang=cn)
   * [uBlock](https://github.com/mun3/F-ckAvgleAntiAdblock)
   * [初雨团队-Dism++](http://www.chuyu.me/zh-Hans/index.html)
+  * [Intel CPU Test Tools](https://downloadcenter.intel.com/download/19792/Intel-Processor-Diagnostic-Tool)
   
 ## Email  
   <a target="_blank" 
