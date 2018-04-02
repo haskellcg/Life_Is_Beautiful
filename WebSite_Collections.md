@@ -111,6 +111,8 @@
 ## IT_News  
   * [CNBeta](http://www.cnbeta.com/) 
   * [MWC 2018](http://mwc.zol.com.cn/?from=bd#mod3)
+  * [快科技](http://www.mydrivers.com/)
+  * [性能天梯图](http://www.mydrivers.com/zhuanti/index.shtml)
   
 ## Japanese
   * [B站日语教程-50音](https://www.bilibili.com/video/av1111459/)
