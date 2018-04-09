@@ -37,3 +37,24 @@
 ## 7. 无法修改win7的装口颜色
   * 这是由于我使用[Wallpaper Engine]的缘故
   * 打开设置->取消适配windowns窗口颜色
+  
+## 8. Ivacy Cient Cant Connect
+  * Android Device
+  '''
+  I am sending you manual settings for Android. Please follow the steps and configure VPN manually on your device and then connect.
+As you are in China that is why you need manual configuration for connection.
+
+Android L2TP:
+Tap on Settings.
+Tap on More Wireless.
+Tap on “+” Icon.
+Insert the following Info:
+Insert Name: Ivacy L2TP
+Type: Type: Select L2TP/IPSec PSK from drop down menu
+Server Address: au-sd1.dns2use.com
+IPSec pre-shared key: 12345678
+Tap on Save.
+Tap on Ivacy L2TP.
+Insert your userame/ password
+Select “Save account information” and tap on Connect.
+  '''
