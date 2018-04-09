@@ -74,6 +74,8 @@
 ## Common Knowledge  
   * [网线类别](https://blog.csdn.net/yangzhao0001/article/details/49336237)
   * [路由器科普](https://www.zhihu.com/question/48860976)
+  * [电力猫科普](http://www.pc841.com/luyouqizhishi/47473.html)
+  * [电力猫应用](http://www.jb51.net/hardware/zonghe/202022.html)
 
 ## Data Base
   * [PingCAP](https://www.pingcap.com/)
