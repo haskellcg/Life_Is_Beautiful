@@ -8,13 +8,22 @@
   
   以下是我现在使用的配置，发现好的配置再增加:
   ```
+  # 自动行号显示
   set nu
+  # tab代表的空格数目
   set tabstop=4
+  # 将tab自动扩展为空格，数目参考tabstop
   set expandtab
-  set shiftwidth
+  # 程序中自动缩进的空格数目
+  set shiftwidth=4
+  # 自动缩进
   set ai
+  # 开启语法高亮显示
   syntax on
   ```
+  
+  * [tabstop/expandtab/shiftwidh/softtabstop 比较详细的解释](https://blog.csdn.net/ludonghai715/article/details/5657712)
+  
 ## 自动补全
   之前出现过的单词可以通过自动补全:
   ```
