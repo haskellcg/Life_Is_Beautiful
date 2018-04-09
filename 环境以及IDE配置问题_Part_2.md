@@ -7,6 +7,7 @@
   * [5. 内存四个插槽，我有两个8G的内存条，插的位置不一样会导致系统反复重启](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#5-%E5%86%85%E5%AD%98%E5%9B%9B%E4%B8%AA%E6%8F%92%E6%A7%BD%E6%88%91%E6%9C%89%E4%B8%A4%E4%B8%AA8g%E7%9A%84%E5%86%85%E5%AD%98%E6%9D%A1%E6%8F%92%E7%9A%84%E4%BD%8D%E7%BD%AE%E4%B8%8D%E4%B8%80%E6%A0%B7%E4%BC%9A%E5%AF%BC%E8%87%B4%E7%B3%BB%E7%BB%9F%E5%8F%8D%E5%A4%8D%E9%87%8D%E5%90%AF)
   * [6. MSI Z97 Gaming7 BIOS升级](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#6-msi-z97-gaming7-bios%E5%8D%87%E7%BA%A7)
   * [7. 无法修改win7的装口颜色](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#7-%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9win7%E7%9A%84%E8%A3%85%E5%8F%A3%E9%A2%9C%E8%89%B2)
+  * [8. Ivacy Cient Cant Connect](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#8-ivacy-cient-cant-connect)
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -39,22 +40,32 @@
   * 打开设置->取消适配windowns窗口颜色
   
 ## 8. Ivacy Cient Cant Connect
+  * [apk/exe/server_list](https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Ftools)
   * Android Device
-  '''
+  ```
   I am sending you manual settings for Android. Please follow the steps and configure VPN manually on your device and then connect.
-As you are in China that is why you need manual configuration for connection.
+  As you are in China that is why you need manual configuration for connection.
 
-Android L2TP:
-Tap on Settings.
-Tap on More Wireless.
-Tap on “+” Icon.
-Insert the following Info:
-Insert Name: Ivacy L2TP
-Type: Type: Select L2TP/IPSec PSK from drop down menu
-Server Address: au-sd1.dns2use.com
-IPSec pre-shared key: 12345678
-Tap on Save.
-Tap on Ivacy L2TP.
-Insert your userame/ password
-Select “Save account information” and tap on Connect.
-  '''
+  Android L2TP:
+  Tap on Settings.
+  Tap on More Wireless.
+  Tap on “+” Icon.
+  Insert the following Info:
+  Insert Name: Ivacy L2TP
+  Type: Type: Select L2TP/IPSec PSK from drop down menu
+  Server Address: au-sd1.dns2use.com
+  IPSec pre-shared key: 12345678
+  Tap on Save.
+  Tap on Ivacy L2TP.
+  Insert your userame/ password
+  Select “Save account information” and tap on Connect.
+  ```
+  
+  * Windows Device
+  ```
+  服务器地址:s240306.pointtoserver.com
+  VPN 类型: IKEv2
+  数据加密:需要加密(如果服务器拒绝将断开连接)
+  身份验证:Microsoft:安全密码(EAP-MSC......)
+  
+  ```
