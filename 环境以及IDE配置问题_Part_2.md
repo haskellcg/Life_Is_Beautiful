@@ -41,6 +41,25 @@
   
 ## 8. Ivacy Cient Cant Connect
   * [apk/exe/server_list](https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Ftools)
+  * Serverlist
+  ```
+  pk2.dns2use.com
+  usca1.dns2use.com
+  us1.dns2use.com
+  uk1.dns2use.com
+  nl1.dns2use.com
+  vl-de1.dns2use.com
+  au-sd1.dns2use.com
+  hk1.dns2use.com
+  vl-cn1.dns2use.com
+  sg1.dns2use.com
+  vl-nl1.dns2use.com
+  vl-pa1.dns2use.com
+  my-kln1.dns2use.com
+  ua1.dns2use.com
+  vl-tw1.dns2use.com
+  vl-jp.dns2use.com
+  ```
   * Android Device
   ```
   I am sending you manual settings for Android. 
