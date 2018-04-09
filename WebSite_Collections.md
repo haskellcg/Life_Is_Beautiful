@@ -7,6 +7,7 @@
   * [Cartoon](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#cartoon)
   * [City Site](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#city-site)
   * [C++](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#c)
+  * [Common Knowledge](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md)
   * [Data Base](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#data-base)
   * [Deep Leanrning](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#deep-learning)
   * [Docker](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/WebSite_Collections.md#docker)
@@ -69,6 +70,10 @@
   
 ## C++
   * [CPlusPlus](http://www.cplusplus.com/)
+  
+## Common Knowledge  
+  * [网线类别](https://blog.csdn.net/yangzhao0001/article/details/49336237)
+  * [路由器科普](https://www.zhihu.com/question/48860976)
 
 ## Data Base
   * [PingCAP](https://www.pingcap.com/)
