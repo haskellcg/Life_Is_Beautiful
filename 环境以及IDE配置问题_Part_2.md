@@ -43,7 +43,8 @@
   * [apk/exe/server_list](https://pan.baidu.com/disk/home?#/all?vmode=list&path=%2Ftools)
   * Android Device
   ```
-  I am sending you manual settings for Android. Please follow the steps and configure VPN manually on your device and then connect.
+  I am sending you manual settings for Android. 
+  Please follow the steps and configure VPN manually on your device and then connect.
   As you are in China that is why you need manual configuration for connection.
 
   Android L2TP:
