@@ -76,6 +76,8 @@
   * [路由器科普](https://www.zhihu.com/question/48860976)
   * [电力猫科普](http://www.pc841.com/luyouqizhishi/47473.html)
   * [电力猫应用](http://www.jb51.net/hardware/zonghe/202022.html)
+  * [Hub-Switch-Bridge区别](https://blog.csdn.net/kinbo88/article/details/36012515)
+  * [Hub-Switch-Router区别](https://blog.csdn.net/zhangjcsd/article/details/49739641)
 
 ## Data Base
   * [PingCAP](https://www.pingcap.com/)
