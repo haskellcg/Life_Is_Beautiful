@@ -60,6 +60,8 @@
   ua1.dns2use.com
   [* 78]vl-tw1.dns2use.com
   vl-jp.dns2use.com
+  
+  www.twitch.tv -- [151.101.2.167]
   ```
   * Android Device
   ```
