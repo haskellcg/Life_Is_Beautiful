@@ -45,7 +45,7 @@
   * Serverlist
 ```  
   usla1.dns2use.com
-  ussa1.dns2use.com
+  [* 200]ussa1.dns2use.com
   usny1.ivacy.net
   vleu-usny1.dns2use.com
   vlbr-usvc1.dns2use.com
@@ -53,7 +53,7 @@
   usnj1.dns2use.com
   usga1.dns2use.com
   usil1.dns2use.com
-  uswdc1.dns2use.com
+  [* 230]uswdc1.dns2use.com
   usfl1.dns2use.com
   vlap-usga1.dns2use.com
   vlap-usil1.dns2use.com
@@ -63,7 +63,7 @@
   cav1.ivacy.net
   de1.dns2use.com
   vlus-de1.dns2use.com
-  nl1.dns2use.com
+  [* 200]nl1.dns2use.com
   vlus-se1.dns2use.com
   se1.dns2use.com
   ch1.dns2use.com
@@ -84,19 +84,19 @@
   vlus-cr1.dns2use.com
   vlus-eg1.dns2use.com
   lv1.dns2use.com
-  hk1.dns2use.com
-  hkf1.dns2use.com
+  [* 200]hk1.dns2use.com
+  [* 210]hkf1.dns2use.com
   vlus-it1.dns2use.com
   it1.dns2use.com
   bg1.dns2use.com
   za1.dns2use.com
   vlbr-cl1.dns2use.com
   idn1.dns2use.com
-  tw1.dns2use.com
-  kr1.dns2use.com
-  kr-se1.dns2use.com
-  cn-hn1.dns2use.com
-  cn.dns2use.com
+  [* 80]tw1.dns2use.com
+  [* 100]kr1.dns2use.com
+  [* 100]kr-se1.dns2use.com
+  [* 23]cn-hn1.dns2use.com
+  [* 27]cn.dns2use.com
   cz1.dns2use.com
   vleu-dk1.dns2use.com
   fi1.dns2use.com
@@ -108,19 +108,19 @@
   ng1.dns2use.com
   pe1.dns2use.com
   co1.dns2use.com
-  sa1.dns2use.com
+  [* 200]sa1.dns2use.com
   ve1.dns2use.com
   sc1.dns2use.com
   ke1.dns2use.com
-  pk1.dns2use.com
+  [* 200]pk1.dns2use.com
   mx1.dns2use.com
   vleu-be1.dns2use.com
   ae1.dns2use.com
   nz1.dns2use.com
   vlus-nz1.dns2use.com
   at1.dns2use.com
-  vlus-jp1.ivacy.net
-  jp1.ivacy.net
+  [* 120]vlus-jp1.ivacy.net
+  [* 120]jp1.ivacy.net
   es1.ivacy.net
 ```
 ```  
