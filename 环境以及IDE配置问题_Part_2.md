@@ -8,6 +8,7 @@
   * [6. MSI Z97 Gaming7 BIOS升级](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#6-msi-z97-gaming7-bios%E5%8D%87%E7%BA%A7)
   * [7. 无法修改win7的装口颜色](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#7-%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9win7%E7%9A%84%E8%A3%85%E5%8F%A3%E9%A2%9C%E8%89%B2)
   * [8. Ivacy Cient Cant Connect](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#8-ivacy-cient-cant-connect)
+  * [9. Renix Tcl使用说明]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -88,4 +89,17 @@
   数据加密:需要加密(如果服务器拒绝将断开连接)
   身份验证:Microsoft:安全密码(EAP-MSC......)
   
+  ```
+  
+## 9. Renix Tcl使用说明
+  * Tcl是基于脚本的方式运行Renix，主要优点就是能够提高工作效率
+  * 首先安装TCL(ActiveTcl8.4.13 Win32 x86)
+  * 运行renix.tcl，但是运行前需要保证cl已经编译，保证server.exe是最新的
+  * 编译cl，确保环境变脸RENIX_BUILD_ROOT对应你现在工作的Renix，运行BuildScript/Build.py
+  * 编译时间比较长，编译完成后打开命令行
+  * tclsh, 然后输入Renix命令
+  * 命令可以保存在文件中(test.tcl)，使用source命令导入
+  ```
+  tclsh
+  source D:\test.tcl
   ```
