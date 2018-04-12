@@ -8,7 +8,7 @@
   * [6. MSI Z97 Gaming7 BIOS升级](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#6-msi-z97-gaming7-bios%E5%8D%87%E7%BA%A7)
   * [7. 无法修改win7的装口颜色](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#7-%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9win7%E7%9A%84%E8%A3%85%E5%8F%A3%E9%A2%9C%E8%89%B2)
   * [8. Ivacy Cient Cant Connect](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#8-ivacy-cient-cant-connect)
-  * [9. Renix Tcl使用说明]()
+  * [9. Renix Tcl使用说明](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#9-renix-tcl%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
