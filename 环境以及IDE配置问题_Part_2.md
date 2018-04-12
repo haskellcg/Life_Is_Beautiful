@@ -45,20 +45,20 @@
   * Serverlist
   ```
   pk2.dns2use.com
-  usca1.dns2use.com
+  [* 200]usca1.dns2use.com
   us1.dns2use.com
   uk1.dns2use.com
   nl1.dns2use.com
   vl-de1.dns2use.com
   au-sd1.dns2use.com
-  hk1.dns2use.com
-  vl-cn1.dns2use.com
+  [* 200]hk1.dns2use.com
+  [* 23]vl-cn1.dns2use.com
   sg1.dns2use.com
   vl-nl1.dns2use.com
-  vl-pa1.dns2use.com
+  [* 198]vl-pa1.dns2use.com
   my-kln1.dns2use.com
   ua1.dns2use.com
-  vl-tw1.dns2use.com
+  [* 78]vl-tw1.dns2use.com
   vl-jp.dns2use.com
   ```
   * Android Device
