@@ -203,6 +203,7 @@
   * [CPU Information](http://xiazai.zol.com.cn/detail/10/91178.shtml)
   * [Hard Disk Information](http://xiazai.zol.com.cn/detail/36/359922.shtml)
   * [Github 10 Years](https://github.com/ten)
+  * [Hamachi](http://www.vpn.net/)
   
 ## Email  
   <a target="_blank" 
