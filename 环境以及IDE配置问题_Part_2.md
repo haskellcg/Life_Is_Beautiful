@@ -112,7 +112,7 @@
   ve1.dns2use.com
   sc1.dns2use.com
   ke1.dns2use.com
-  [* 200]pk1.dns2use.com
+  [* 200, good for twitch]pk1.dns2use.com
   mx1.dns2use.com
   vleu-be1.dns2use.com
   ae1.dns2use.com
