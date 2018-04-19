@@ -105,6 +105,7 @@
   * [凤凰游戏-steam key购买](http://gamersky.fhyx.hk/)
   * [Official Factorio](https://factorio.com/)
   * [Wiki Factorio](https://wiki.factorio.com/)
+  * [Factorio Console Command](https://wiki.factorio.com/Console)
 
 ## Git
   * [Pro-Git](https://progit.bootcss.com)
