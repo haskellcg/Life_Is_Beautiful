@@ -103,6 +103,8 @@
   * [WindowFrame](https://managore.itch.io/windowframe)
   * [Top20](https://www.hltv.org/news/22348/top-20-players-of-2017-introduction)
   * [凤凰游戏-steam key购买](http://gamersky.fhyx.hk/)
+  * [Official Factorio](https://factorio.com/)
+  * [Wiki Factorio](https://wiki.factorio.com/)
 
 ## Git
   * [Pro-Git](https://progit.bootcss.com)
