@@ -9,6 +9,8 @@
   * [7. 无法修改win7的装口颜色](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#7-%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9win7%E7%9A%84%E8%A3%85%E5%8F%A3%E9%A2%9C%E8%89%B2)
   * [8. Ivacy Cient Cant Connect](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#8-ivacy-cient-cant-connect)
   * [9. Renix Tcl使用说明](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#9-renix-tcl%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
+  * [10. CSGO DeathMatch模式，会出现买手枪、AK，重生后只剩手枪]()
+  * [11. CSGO 常用命令]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -186,4 +188,45 @@
   source D:\test.tcl
   ```
   * 调试与PyCharm结合使用: 注释掉renix.tcl的L48行[set port [start server]]
-o
+  
+## 10. CSGO DeathMatch模式，会出现买手枪、AK，重生后只剩手枪
+  * 这种情况，经过测试是打开游戏的第一次购买正常，第二次之后的重生，如果买其他装备将会只能保留一个武器的情况
+  
+## 11. CSGO 常用命令
+  ```
+  // 设置最大fps，默认300
+  fps_max 999
+  
+  // 设置所有人都是敌人，均可击杀，在DeathMatch中使用
+  mp_teammates_are_enemy 1 
+  
+  // 清除地图上的血迹，太多影响视线
+  r_cleardecals  
+  ```
+  
+  ```
+  mp_restartgame 1 1秒后刷新游戏
+  mp_autoteambalance 0/1 是否打开自动平衡
+  mp_maxmoney 16000 最高金钱16000
+  mp_roundtime 60 死亡竞赛的回合时间60分钟
+  mp_roundtime_defuse 60 休闲/竞技模式每局时间60分钟
+  mp_maxrounds 30 休闲/竞技模式最大局数设为30局
+  mp_startmoney 16000 出生金钱为16000
+  mp_buytime 15 开局购买时间15秒
+  mp_buy_anywhere 1 在任意地点都能购买武器
+  mp_freezetime 0 每局出生原地冻结时间0秒
+  mp_friendlyfire 0/1 关闭/开启友军伤害
+  mp_limitteams 2 双方人数差异最多为2人
+  maxplayers 16 地图最大玩家数(包括机器人)
+  mp_c4timer 45 C4引爆时间45秒
+  map de_inferno 切换地图为de_inferno(炼狱小镇)
+  maps 列出该服务器所有地图
+  mp_display_kill_assists 0/1 关闭/开启助攻显示
+  mp_overtime_enable 0/1 是否允许打加时赛
+  mp_randomspawn 0/1 是否基地为出生点
+  mp_teammates_are_enemies 0/1 死斗模式/死亡模式
+  mp_respawn_on_death_t 0/1
+  mp_respawn_on_death_ct 0/1
+  sv_password 123 设置服务器密码为123
+  exec gamemode_模式 切换游戏模式
+  ```
