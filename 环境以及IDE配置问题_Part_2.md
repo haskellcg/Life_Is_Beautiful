@@ -9,8 +9,8 @@
   * [7. 无法修改win7的装口颜色](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#7-%E6%97%A0%E6%B3%95%E4%BF%AE%E6%94%B9win7%E7%9A%84%E8%A3%85%E5%8F%A3%E9%A2%9C%E8%89%B2)
   * [8. Ivacy Cient Cant Connect](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#8-ivacy-cient-cant-connect)
   * [9. Renix Tcl使用说明](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#9-renix-tcl%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E)
-  * [10. CSGO DeathMatch模式，会出现买手枪、AK，重生后只剩手枪]()
-  * [11. CSGO 常用命令]()
+  * [10. CSGO DeathMatch模式，会出现买手枪、AK，重生后只剩手枪](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#10-csgo-deathmatch%E6%A8%A1%E5%BC%8F%E4%BC%9A%E5%87%BA%E7%8E%B0%E4%B9%B0%E6%89%8B%E6%9E%AAak%E9%87%8D%E7%94%9F%E5%90%8E%E5%8F%AA%E5%89%A9%E6%89%8B%E6%9E%AA)
+  * [11. CSGO 常用命令](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#11-csgo-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
