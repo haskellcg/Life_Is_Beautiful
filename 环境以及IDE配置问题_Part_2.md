@@ -208,7 +208,7 @@
   // 死斗设置
   bind v "r_cleardecals"
   bind m "buy deagle; buy ak47; buy flashbang; buy molotov; buy hegrenade"
-  mp_roundtime 60; mp_teammates_are_enemies 1; mp_buy_allow_grenades 1;
+  mp_roundtime 60; mp_teammates_are_enemies 1; mp_buy_allow_grenades 1; fps_max 999;
   
   ```
   
