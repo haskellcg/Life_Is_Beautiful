@@ -194,6 +194,7 @@
   * 这种情况，经过测试是打开游戏的第一次购买正常，第二次之后的重生，如果买其他装备将会只能保留一个武器的情况
   
 ## 11. CSGO 常用命令
+  
   ```
   // 设置最大fps，默认300
   fps_max 999
@@ -202,7 +203,13 @@
   mp_teammates_are_enemy 1 
   
   // 清除地图上的血迹，太多影响视线
-  r_cleardecals  
+  r_cleardecals 
+  
+  // 死斗设置
+  bind v "r_cleardecals"
+  bind m "buy deagle; buy ak47; buy flashbang; buy molotov; buy hegrenade"
+  mp_roundtime 60; mp_teammates_are_enemies 1; mp_buy_allow_grenades 1;
+  
   ```
   
   ```
@@ -231,6 +238,8 @@
   sv_password 123 设置服务器密码为123
   exec gamemode_模式 切换游戏模式
   ```
+  
+  * [枪械命令字符串](http://csgo.tgbus.com/jiaoliu/116478.shtml)
 
 ## 12. 三星手机的自测代码
   * 通过拨号键输入代码
