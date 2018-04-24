@@ -12,6 +12,7 @@
   * [10. CSGO DeathMatch模式，会出现买手枪、AK，重生后只剩手枪](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#10-csgo-deathmatch%E6%A8%A1%E5%BC%8F%E4%BC%9A%E5%87%BA%E7%8E%B0%E4%B9%B0%E6%89%8B%E6%9E%AAak%E9%87%8D%E7%94%9F%E5%90%8E%E5%8F%AA%E5%89%A9%E6%89%8B%E6%9E%AA)
   * [11. CSGO 常用命令](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#11-csgo-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
   * [12. 三星手机的自测代码](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#12-%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA%E7%9A%84%E8%87%AA%E6%B5%8B%E4%BB%A3%E7%A0%81)
+  * [13. Win7网络链接默认名称\[网络3\]修改]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -250,3 +251,6 @@
   // 电池信息
   *#0228#
   ```
+  
+## 13. Win7网络链接默认名称[网络3]修改
+  * 修改注册表[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles\]  
