@@ -213,6 +213,8 @@
   * [Hamachi](http://www.vpn.net/)
   * [IANA端口查询](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=4785)
   * [驱家软件推荐](http://news.mydrivers.com/1/575/575561.htm)
+  * [软件全家桶](https://zhuanlan.zhihu.com/p/34795066)
+  * [下载软件](https://zhuanlan.zhihu.com/p/30187992)
   * [FakeApp](https://www.fakeapp.org/)
   
 ## Email  
