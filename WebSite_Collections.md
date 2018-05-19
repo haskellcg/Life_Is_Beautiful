@@ -216,6 +216,7 @@
   * [软件全家桶](https://zhuanlan.zhihu.com/p/34795066)
   * [下载软件](https://zhuanlan.zhihu.com/p/30187992)
   * [FakeApp](https://www.fakeapp.org/)
+  * [哥特萝莉](http://www.gtloli.com/forum.php)
   
 ## Email  
   <a target="_blank" 
