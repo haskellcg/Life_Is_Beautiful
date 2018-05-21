@@ -217,6 +217,11 @@
   * [下载软件](https://zhuanlan.zhihu.com/p/30187992)
   * [FakeApp](https://www.fakeapp.org/)
   * [哥特萝莉](http://www.gtloli.com/forum.php)
+  * [SSR_1](https://blog.csdn.net/abstract_js/article/details/79542379)
+  * [SSR_2](https://www.cnblogs.com/JohnGene-Blog/p/8629695.html)
+  * [SSR_3](https://www.qcgzxw.cn/1640.html)
+  * [SSR_4](https://www.cnblogs.com/ex-saber/p/SSR.html)
+  * [SSR_5](https://blog.csdn.net/qq_26483671/article/details/79268195)
   
 ## Email  
   <a target="_blank" 
