@@ -212,6 +212,8 @@
   bind m "buy deagle; buy ak47; buy flashbang; buy molotov; buy hegrenade"
   mp_roundtime 60; mp_teammates_are_enemies 1; mp_buy_allow_grenades 1; fps_max 999;
   
+  // 死斗命令行
+  map ice_world dm
   ```
   
   ```
