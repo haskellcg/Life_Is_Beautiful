@@ -15,6 +15,7 @@
   * [13. Win7网络链接默认名称\[网络3\]修改](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#13-win7%E7%BD%91%E7%BB%9C%E9%93%BE%E6%8E%A5%E9%BB%98%E8%AE%A4%E5%90%8D%E7%A7%B0%E7%BD%91%E7%BB%9C3%E4%BF%AE%E6%94%B9)
   * [14. CPU-Z打开错误,错误代码0x241](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#14-cpu-z%E6%89%93%E5%BC%80%E9%94%99%E8%AF%AF%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%810x241)
   * [15. DeadByDaylight low fps]()
+  * [16. 查看显示器刷新频率]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -197,6 +198,7 @@
   * 这种情况，经过测试是打开游戏的第一次购买正常，第二次之后的重生，如果买其他装备将会只能保留一个武器的情况
   
 ## 11. CSGO 常用命令
+  * [启动项设置](https://tieba.baidu.com/p/4847721544?red_tag=2426546352)
   
   ```
   // 设置最大fps，默认300
@@ -214,7 +216,10 @@
   mp_roundtime 60; mp_teammates_are_enemies 1; mp_buy_allow_grenades 1; fps_max 999;
   
   // 死斗命令行
-  map ice_world dm
+  map ice_world dm  
+  
+  // 暖色设置
+  NVIDIA显卡设置：数字震动
   ```
   
   ```
@@ -268,3 +273,7 @@
   * file:$User/AppData\local\deadbydaylight\Config\WindowsNoEditor\GameUserSetting
   * Change value of "bUseVSync" from True to False
   * restart game
+  
+## 16. 查看显示器刷新频率
+  * 右键=>屏幕分辨率=>高级设置=>监视器
+  * 屏幕刷新频率
