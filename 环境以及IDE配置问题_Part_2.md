@@ -14,6 +14,7 @@
   * [12. 三星手机的自测代码](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#12-%E4%B8%89%E6%98%9F%E6%89%8B%E6%9C%BA%E7%9A%84%E8%87%AA%E6%B5%8B%E4%BB%A3%E7%A0%81)
   * [13. Win7网络链接默认名称\[网络3\]修改](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#13-win7%E7%BD%91%E7%BB%9C%E9%93%BE%E6%8E%A5%E9%BB%98%E8%AE%A4%E5%90%8D%E7%A7%B0%E7%BD%91%E7%BB%9C3%E4%BF%AE%E6%94%B9)
   * [14. CPU-Z打开错误,错误代码0x241](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#14-cpu-z%E6%89%93%E5%BC%80%E9%94%99%E8%AF%AF%E9%94%99%E8%AF%AF%E4%BB%A3%E7%A0%810x241)
+  * [15. DeadByDaylight low fps]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -261,3 +262,9 @@
 ## 14. CPU-Z打开错误,错误代码0x241
   * 这个是由于1.84版本bug导致，使用1.79版本就可以
   * [1.79获取方法](https://jingyan.baidu.com/article/870c6fc35ab620b03fe4bebc.html)
+  
+## 15. DeadByDaylight low fps
+  * change Graphic setting by editting config file
+  * file:$User/AppData\local\deadbydaylight\Config\WindowsNoEditor\GameUserSetting
+  * Change value of "bUseVSync" from True to False
+  * restart game
