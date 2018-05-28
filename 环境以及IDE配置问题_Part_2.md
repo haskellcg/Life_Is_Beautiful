@@ -210,6 +210,9 @@
   // 清除地图上的血迹，太多影响视线
   r_cleardecals 
   
+  // 停止热身
+  mp_warmup_end
+  
   // 死斗设置
   bind v "r_cleardecals"
   bind m "buy deagle; buy ak47; buy flashbang; buy molotov; buy hegrenade"
