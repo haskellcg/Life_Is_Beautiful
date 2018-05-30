@@ -109,6 +109,8 @@
   * [Factorio Console Command](https://wiki.factorio.com/Console)
   * [TMNT-2013](http://www.yxdown.com/SoftView/SoftView_56855.html)
   * [TMNT-2016](http://www.yxdown.com/SoftView/SoftView_128377.html)
+  * [Skyrim: NMM](http://patch.ali213.net/showpatch/65325.html)
+  * [Skyrim: Sexlab](http://patch.ali213.net/showpatch/65329.html)  
   * [Illusion New Games]()
 
 ## Git
