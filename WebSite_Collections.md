@@ -111,7 +111,10 @@
   * [TMNT-2016](http://www.yxdown.com/SoftView/SoftView_128377.html)
   * [Skyrim: NMM](http://patch.ali213.net/showpatch/65325.html)
   * [Skyrim: Sexlab](http://patch.ali213.net/showpatch/65329.html)  
+  * [Skyrim: LoversLab](https://www.loverslab.com/topic/17711-sexlab-frequently-asked-questions-faq/)  
   * [Illusion New Games]()
+  * [Game With Mode]()
+  * [Use Game Model to Make Animation]()
 
 ## Git
   * [Pro-Git](https://progit.bootcss.com)
