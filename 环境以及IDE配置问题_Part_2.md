@@ -192,8 +192,13 @@
   ```
   tclsh
   source D:\test.tcl
+  
+  > cat test.tcl
+  >>> source xxx/server/tcl/renix.tcl
+  >>> [commands]
   ```
   * 调试与PyCharm结合使用: 注释掉renix.tcl的L48行[set port [start server]]
+  * 命令的查询可以参考文件[server/tcl/class_define_Autogen.itcl]
   
 ## 10. CSGO DeathMatch模式，会出现买手枪、AK，重生后只剩手枪
   * 这种情况，经过测试是打开游戏的第一次购买正常，第二次之后的重生，如果买其他装备将会只能保留一个武器的情况
