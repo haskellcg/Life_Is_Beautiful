@@ -17,6 +17,8 @@
   * [15. DeadByDaylight low fps](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#15-deadbydaylight-low-fps)
   * [16. 查看显示器刷新频率](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#16-%E6%9F%A5%E7%9C%8B%E6%98%BE%E7%A4%BA%E5%99%A8%E5%88%B7%E6%96%B0%E9%A2%91%E7%8E%87)
   * [17. StartUML: Cannot focus a disable or invisible window](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#17-startuml-cannot-focus-a-disable-or-invisible-window)
+  * [18. DeadByDayLight安装后缺少dll(api-ms-win...)](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#18-deadbydaylight%E5%AE%89%E8%A3%85%E5%90%8E%E7%BC%BA%E5%B0%91dllapi-ms-win)
+  * [19. 安装操作系统，显示没有检查到磁盘的驱动](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#19-%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%B2%A1%E6%9C%89%E6%A3%80%E6%9F%A5%E5%88%B0%E7%A3%81%E7%9B%98%E7%9A%84%E9%A9%B1%E5%8A%A8)
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
