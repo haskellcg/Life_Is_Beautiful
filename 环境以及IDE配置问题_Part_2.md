@@ -284,7 +284,7 @@
   * change Graphic setting by editting config file
   * file:$User/AppData\local\deadbydaylight\Config\WindowsNoEditor\GameUserSetting
   * Change value of "bUseVSync" from True to False
-  * restart game
+  * restart game 
   
 ## 16. 查看显示器刷新频率
   * 右键=>屏幕分辨率=>高级设置=>监视器
@@ -294,3 +294,10 @@
   * 软件bug，只能避免该问题，方法如下
   * 打开StartUML
   * 固定"Model Explorer"，別隐藏，就可以了 (手动滑稽)
+  
+## 18. DeadByDayLight安装后缺少dll(api-ms-win...)  
+  * 手动打开安装目录的程序(Dead by Daylight\_CommonRedist\vcredist\2015)
+  * 重启即可
+  
+## 19. 安装操作系统，显示没有检查到磁盘的驱动
+  * 重新插入U盘即可，注意尽量插入USB2.0
