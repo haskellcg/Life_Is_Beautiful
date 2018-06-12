@@ -308,4 +308,5 @@
 ## 20. 计算机电源的那些事
   * [电源功率不够可能引发的问题](http://ask.zol.com.cn/x/3873361.html)
   * [计算机功率计算，计算出来的是满载功率](http://www.coolermaster.com/power-supply-calculator/)
+  * [比较旧的网站，硬件数据不是最新的](http://power.zol.com.cn/calculate.shtml)
   * [关于计算机电源的一些话题](https://www.zhihu.com/question/58004835)
