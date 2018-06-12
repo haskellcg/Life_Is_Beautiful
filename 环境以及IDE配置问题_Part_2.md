@@ -303,3 +303,8 @@
   
 ## 19. 安装操作系统，显示没有检查到磁盘的驱动
   * 重新插入U盘即可，注意尽量插入USB2.0
+  
+## 20. 计算机电源的那些事
+  * [电源功率不够可能引发的问题](http://ask.zol.com.cn/x/3873361.html)
+  * [计算机功率计算，计算出来的是满载功率][http://www.coolermaster.com/power-supply-calculator/)
+  * [关于计算机电源的一些话题](https://www.zhihu.com/question/58004835)
