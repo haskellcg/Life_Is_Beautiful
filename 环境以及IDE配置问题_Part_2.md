@@ -310,3 +310,6 @@
   * [计算机功率计算，计算出来的是满载功率](http://www.coolermaster.com/power-supply-calculator/)
   * [比较旧的网站，硬件数据不是最新的](http://power.zol.com.cn/calculate.shtml)
   * [关于计算机电源的一些话题](https://www.zhihu.com/question/58004835)
+  
+## 21. 华硕AC86U信息  
+  * [原版固件](https://www.asus.com.cn/Networking/RT-AC86U/HelpDesk_BIOS/)
