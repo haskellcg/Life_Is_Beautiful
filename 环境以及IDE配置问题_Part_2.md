@@ -21,6 +21,7 @@
   * [19. 安装操作系统，显示没有检查到磁盘的驱动](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#19-%E5%AE%89%E8%A3%85%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%98%BE%E7%A4%BA%E6%B2%A1%E6%9C%89%E6%A3%80%E6%9F%A5%E5%88%B0%E7%A3%81%E7%9B%98%E7%9A%84%E9%A9%B1%E5%8A%A8)
   * [20. 计算机电源的那些事](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#20-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%94%B5%E6%BA%90%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B)
   * [21. 华硕AC86U信息](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#21-%E5%8D%8E%E7%A1%95ac86u%E4%BF%A1%E6%81%AF)
+  * [22. Skyrim Graphic Setting]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -314,3 +315,13 @@
   
 ## 21. 华硕AC86U信息  
   * [原版固件](https://www.asus.com.cn/Networking/RT-AC86U/HelpDesk_BIOS/)
+  
+## 22. Skyrim Graphic Setting
+  * Mouse Smoothing
+    * Open [xxx/MyGames/Skyrim/SkyrimPrefbs.ini]
+    * Change [bMouseAcceleration] from 1 to 0
+  * V-sync off [1]
+    * Open [xxx/MyGames/Skyrim/SkyrimPrefbs.ini]
+    * Change [iPresentInterval] from 1 to 0
+  * V-sync off [2]
+    * Use Nvidia Driver Setting for skyrim
