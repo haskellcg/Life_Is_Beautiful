@@ -325,3 +325,8 @@
     * Change [iPresentInterval] from 1 to 0
   * V-sync off [2]
     * Use Nvidia Driver Setting for skyrim
+  * Delete something useless
+    * Use console command: [MarkForDelete] to delete selected thing
+  * Additem for redo
+    * get [baseID] by selecting thing
+    * use console command [player.additem baseID 1] to get item you want
