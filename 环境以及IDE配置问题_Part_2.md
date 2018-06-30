@@ -22,7 +22,7 @@
   * [20. 计算机电源的那些事](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#20-%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%94%B5%E6%BA%90%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B)
   * [21. 华硕AC86U信息](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#21-%E5%8D%8E%E7%A1%95ac86u%E4%BF%A1%E6%81%AF)
   * [22. Skyrim Graphic Setting](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#22-skyrim-graphic-setting)
-  * [23. Skyrim跳过任务方法]()
+  * [23. Skyrim跳过任务方法](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#23-skyrim%E8%B7%B3%E8%BF%87%E4%BB%BB%E5%8A%A1%E6%96%B9%E6%B3%95)
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
