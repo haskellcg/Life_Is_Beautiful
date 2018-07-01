@@ -331,6 +331,15 @@
   * Additem for redo
     * get [baseID] by selecting thing
     * use console command [player.additem baseID 1] to get item you want
+  * additem
+    * 火燃素: 0003ad5e
+    * 红鹰剑: 009fd50
+  * 如果卡在岩石里: tcl
+  * 无法吸收龙魂: 暂时停用dragonborn mod，或者直接添加龙魂
+  ```
+  player.setav dragonsouls 10
+  ```
+  * 识界之巅: 必须确保在现场完成任务，并阅读书籍，否则阅读书籍人物卡死
     
 ## 23. Skyrim跳过任务方法
   * 由于游戏bug，有些场景无法顺利通过，或者需要修改任务种族
