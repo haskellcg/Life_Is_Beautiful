@@ -336,6 +336,7 @@
     * 红鹰剑: 009fd50
   * 如果卡在岩石里: tcl
   * 无法吸收龙魂: 暂时停用dragonborn mod，或者直接添加龙魂
+  * 截图命令:tfc冻结画面，tm去处画面中的控件
   ```
   player.setav dragonsouls 10
   ```
