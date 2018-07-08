@@ -338,6 +338,8 @@
   * 如果卡在岩石里: tcl
   * 无法吸收龙魂: 暂时停用dragonborn mod，或者直接添加龙魂
   * 截图命令:tfc冻结画面，tm去处画面中的控件
+  * [各种物体的代码](http://bbs.3dmgame.com/thread-3987918-1-1.html)
+  * [各个城市的商店位置](http://wap.gamersky.com/gl/Content-562119.html)
   ```
   player.setav dragonsouls 10
   ```
