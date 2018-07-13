@@ -340,6 +340,8 @@
   * 截图命令:tfc冻结画面，tm去处画面中的控件
   * [各种物体的代码](http://bbs.3dmgame.com/thread-3987918-1-1.html)
   * [各个城市的商店位置](http://wap.gamersky.com/gl/Content-562119.html)
+  * [新手指南](http://www.gamersky.com/handbook/201407/385081.shtml)
+  * [小知识](http://www.gamersky.com/handbook/201201/188693_2.shtml)
   ```
   player.setav dragonsouls 10
   ```
