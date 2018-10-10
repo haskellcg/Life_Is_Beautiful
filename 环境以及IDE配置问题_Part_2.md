@@ -24,7 +24,7 @@
   * [22. Skyrim Graphic Setting](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#22-skyrim-graphic-setting)
   * [23. Skyrim跳过任务方法](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#23-skyrim%E8%B7%B3%E8%BF%87%E4%BB%BB%E5%8A%A1%E6%96%B9%E6%B3%95)
   * [24. 键盘重复输入的问题](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#24-%E9%94%AE%E7%9B%98%E9%87%8D%E5%A4%8D%E8%BE%93%E5%85%A5%E7%9A%84%E9%97%AE%E9%A2%98)
-  * [25. VMWare9在安装Ubuntu18之后无法显示共享文件夹(看不到hgfs文件夹)]()
+  * [25. VMWare9在安装Ubuntu18之后无法显示共享文件夹(看不到hgfs文件夹)](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#25-vmware9%E5%9C%A8%E5%AE%89%E8%A3%85ubuntu18%E4%B9%8B%E5%90%8E%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9C%8B%E4%B8%8D%E5%88%B0hgfs%E6%96%87%E4%BB%B6%E5%A4%B9)
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
