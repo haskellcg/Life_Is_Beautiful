@@ -24,6 +24,7 @@
   * [22. Skyrim Graphic Setting](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#22-skyrim-graphic-setting)
   * [23. Skyrim跳过任务方法](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#23-skyrim%E8%B7%B3%E8%BF%87%E4%BB%BB%E5%8A%A1%E6%96%B9%E6%B3%95)
   * [24. 键盘重复输入的问题](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#24-%E9%94%AE%E7%9B%98%E9%87%8D%E5%A4%8D%E8%BE%93%E5%85%A5%E7%9A%84%E9%97%AE%E9%A2%98)
+  * [25. VMWare9在安装Ubuntu18之后无法显示共享文件夹(看不到hgfs文件夹)]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -361,3 +362,10 @@
 
 ## 24. 键盘重复输入的问题
   * 可以通过系统设置的键盘属性进行改善
+  
+## 25. VMWare9在安装Ubuntu18之后无法显示共享文件夹(看不到hgfs文件夹)
+  * 首先升级VMWare9到VMwarePro15
+  * [激活秘钥](https://blog.csdn.net/kdongyi/article/details/82900243)
+  * 安装Ubuntu18之后系统会自动安装Vmware-Tools
+  * 设置虚拟机的共享文件夹选项
+  * 打开虚拟机重新安装Vmware-Tools即可
