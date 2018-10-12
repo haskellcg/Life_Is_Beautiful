@@ -28,3 +28,9 @@
   rz filepath
   sz filepath
   ```
+
+## 6. 设置Linux终端状态为不回显
+  ```
+  stty -echo
+  stty echo
+  ```
