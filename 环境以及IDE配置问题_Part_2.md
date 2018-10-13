@@ -375,6 +375,7 @@
   * [add adobe flash for firefox](https://jingyan.baidu.com/article/2fb0ba40a7832600f2ec5f80.html)
   * [add chrome]()
   * [add Chinese input](https://www.cnblogs.com/asmer-stone/p/9069866.html)
+  * [add Chinese pinyin input](https://blog.csdn.net/mint_ying/article/details/80267005)
   * [add Nvidia driver](https://blog.csdn.net/tjuyanming/article/details/80862290)
   * [change grub resolution](https://blog.csdn.net/ztz0223/article/details/6705382)
   * [change grub resolution](http://www.360doc.com/content/12/0501/23/834950_207994643.shtml)
