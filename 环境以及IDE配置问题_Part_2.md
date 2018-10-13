@@ -380,3 +380,4 @@
   * [change grub resolution](https://blog.csdn.net/ztz0223/article/details/6705382)
   * [change grub resolution](http://www.360doc.com/content/12/0501/23/834950_207994643.shtml)
   * [change grub resolution](https://blog.csdn.net/longmaohu/article/details/80813879)
+  * [3D Desktop](https://blog.csdn.net/zcf1002797280/article/details/8546772)
