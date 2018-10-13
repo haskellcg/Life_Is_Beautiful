@@ -379,3 +379,4 @@
   * [add Nvidia driver](https://blog.csdn.net/tjuyanming/article/details/80862290)
   * [change grub resolution](https://blog.csdn.net/ztz0223/article/details/6705382)
   * [change grub resolution](http://www.360doc.com/content/12/0501/23/834950_207994643.shtml)
+  * [change grub resolution](https://blog.csdn.net/longmaohu/article/details/80813879)
