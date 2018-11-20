@@ -384,3 +384,4 @@
   * [change login bg picture](https://www.cnblogs.com/hushuangpu/p/6277965.html)
   * [change login bg picture](https://blog.csdn.net/qq_36285997/article/details/80403620)
   * [Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)](https://blog.csdn.net/u011596455/article/details/60322568)
+  * [set root passwd](https://blog.csdn.net/zhaoyuaiweide/article/details/78003605)
