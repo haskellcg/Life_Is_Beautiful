@@ -8,11 +8,14 @@
   
   以下是我现在使用的配置，发现好的配置再增加:
   ```
+  " 若需要取消设置，前面加no，例如
+  set noexpandtab
+  
   " 自动行号显示
   set nu
   " tab代表的空格数目
   set tabstop=4
-  " 将tab自动扩展为空格，数目参考tabstop
+  " 将tab自动扩展为空格，数目参考tabstop 
   set expandtab
   " 程序中自动缩进的空格数目
   set shiftwidth=4
