@@ -8,17 +8,17 @@
   
   以下是我现在使用的配置，发现好的配置再增加:
   ```
-  # 自动行号显示
+  " 自动行号显示
   set nu
-  # tab代表的空格数目
+  " tab代表的空格数目
   set tabstop=4
-  # 将tab自动扩展为空格，数目参考tabstop
+  " 将tab自动扩展为空格，数目参考tabstop
   set expandtab
-  # 程序中自动缩进的空格数目
+  " 程序中自动缩进的空格数目
   set shiftwidth=4
-  # 自动缩进
+  " 自动缩进
   set ai
-  # 开启语法高亮显示
+  " 开启语法高亮显示
   syntax on
   ```
   
