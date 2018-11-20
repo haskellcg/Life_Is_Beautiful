@@ -393,6 +393,7 @@
     * apt-get install update    
 
 ## 27. makefile:14: *** missing separator
+  * [blog about this](https://www.cnblogs.com/Zyf2016/p/6337827.html)
   * 这是由于缩进没有控制导致
   * 目前我的环境中vim默认将tab替换为4空格
   * 用默认vim配置:使用双引号作为注释
