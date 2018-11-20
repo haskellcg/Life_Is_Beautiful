@@ -386,3 +386,4 @@
   * [Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)](https://blog.csdn.net/u011596455/article/details/60322568)
   * [set root passwd](https://blog.csdn.net/zhaoyuaiweide/article/details/78003605)
   * [install ssh for xshell](https://www.linuxidc.com/Linux/2017-12/149623.htm)
+  * [install git for xshell](https://www.cnblogs.com/zhuchenglin/p/7528988.html)
