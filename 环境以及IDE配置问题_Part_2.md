@@ -27,6 +27,7 @@
   * [25. VMWare9在安装Ubuntu18之后无法显示共享文件夹(看不到hgfs文件夹)](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#25-vmware9%E5%9C%A8%E5%AE%89%E8%A3%85ubuntu18%E4%B9%8B%E5%90%8E%E6%97%A0%E6%B3%95%E6%98%BE%E7%A4%BA%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9C%8B%E4%B8%8D%E5%88%B0hgfs%E6%96%87%E4%BB%B6%E5%A4%B9)
   * [26. Ubuntu usage](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#26-ubuntu-usage)
   * [27. makefile:14: *** missing separator](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#27-makefile14--missing-separator)
+  * [28. Call of Duty系列名称]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -397,3 +398,20 @@
   * 这是由于缩进没有控制导致
   * 目前我的环境中vim默认将tab替换为4空格
   * 用默认vim配置:使用双引号作为注释
+  
+## 28. Call of Duty系列名称
+  * COD1:使命召唤
+  * COD2:使命召唤2
+  * COD3:使命召唤3
+  * COD4:使命召唤4现代战争
+  * COD5:使命召唤5世界战争
+  * COD6:使命召唤6现代战争2
+  * COD7:使命召唤7黑色行动
+  * COD8:使命召唤8：现代战争3
+  * COD9:使命召唤9：黑色行动2
+  * COD10:使命召唤10：幽灵
+  * COD11:使命召唤11：高级战争
+  * COD12:使命召唤12：黑色行动3
+  * COD13:使命召唤13：无限战争
+  * COD14:使命召唤14：二战
+  * COD15:使命召唤15：黑色行动4
