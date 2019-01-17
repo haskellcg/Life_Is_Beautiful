@@ -28,6 +28,7 @@
   * [26. Ubuntu usage](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#26-ubuntu-usage)
   * [27. makefile:14: *** missing separator](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#27-makefile14--missing-separator)
   * [28. Call of Duty系列名称](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md#28-call-of-duty%E7%B3%BB%E5%88%97%E5%90%8D%E7%A7%B0)
+  * [29. vmware pro 15 and licenses]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -415,3 +416,7 @@
   * COD13：使命召唤13---无限战争
   * COD14：使命召唤14---二战
   * COD15：使命召唤15---黑色行动4
+  
+## 29. vmware pro 15 and licenses
+  * [download page](https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html)
+  * [licenses](https://blog.csdn.net/kdongyi/article/details/82900243)
