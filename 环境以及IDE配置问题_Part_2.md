@@ -393,6 +393,7 @@
   * install build-essential: depends gcc/g++
     * 过程中错误的关闭的软件更新导致
     * apt-get install update    
+  * [Could not get lock /var/lib/dpkg/lock-frontend](https://askubuntu.com/questions/1109982/e-could-not-get-lock-var-lib-dpkg-lock-frontend-open-11-resource-temporari)
 
 ## 27. makefile:14: *** missing separator
   * [blog about this](https://www.cnblogs.com/Zyf2016/p/6337827.html)
