@@ -27,6 +27,8 @@
   ```
   rz filepath
   sz filepath
+  
+  ubuntu install: sudo apt-get install lrzsz
   ```
 
 ## 6. 设置Linux终端状态为不回显
