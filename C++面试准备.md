@@ -1,4 +1,7 @@
 ## 1. C++基础语法知识
+  * [C++重要知识点小结---1](https://www.cnblogs.com/heyonggang/p/3246631.html)
+  * [C++拷贝构造函数](https://www.cnblogs.com/heyonggang/p/3250080.html)
+  * [常见C++面试题及基本知识点总结（一）](https://www.cnblogs.com/LUO77/p/5771237.html)
 
 ## 2. 设计模式
 
