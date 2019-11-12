@@ -421,8 +421,9 @@
   * COD15：使命召唤15---黑色行动4
   
 ## 29. vmware pro 15 and licenses
-  * [download page](https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html)
-  * [licenses](https://blog.csdn.net/kdongyi/article/details/82900243)
+  * [官网](https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html)
+  * [网站](https://www.7down.com/soft/310745.html)
+  * 硬盘
   
 ## 30. Unity3D import packet不显示资源包
   * [解决方法](https://jingyan.baidu.com/article/c1a3101e6ed667de656debc1.html)
