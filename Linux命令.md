@@ -14,7 +14,7 @@
 ## 3. 修改文件的拥有者以及组
   ```
   chown -R haskell test.cpp
-  chgrp -R haskell test.cpp
+  chgrp -R haskell test.cpp    
   ```
 
 ## 4. 远程复制目录
@@ -35,4 +35,11 @@
   ```
   stty -echo
   stty echo
+  ```
+  
+## 7. 迭代的修改文件夹权限以及文件权限
+  ```
+  chmod -R 755 DstDir
+  find DstDir -type d -exec chmod 755 {} \;
+  find DstDir -type d -exec chmod 644 {} \;
   ```
