@@ -47,7 +47,7 @@
 ## 7. 改变linux命令行输出的颜色
   * \033\[{CODE}m 表示开始设置颜色
   * \033\[0m 表示结束设置，不影响后面的输出
-  * 字体颜色CODE
+  * 字体颜色CODE    
   ![字体颜色](https://github.com/haskellcg/Blog_Pictures/blob/master/console_change_font_color.PNG)
-  * 背景颜色CODE
+  * 背景颜色CODE    
   ![背景颜色](https://github.com/haskellcg/Blog_Pictures/blob/master/console_change_bg_color.PNG)
