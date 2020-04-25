@@ -21,6 +21,8 @@
   set shiftwidth=4
   " 自动缩进
   set ai
+  " 高亮显示匹配结果
+  set hlsearch
   " 开启语法高亮显示
   syntax on
   ```
