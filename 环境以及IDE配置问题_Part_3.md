@@ -6,7 +6,7 @@
   * [5. 安装YLMF系统](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#5-%E5%AE%89%E8%A3%85ylmf%E7%B3%BB%E7%BB%9F)
   * [6. Ubuntu启动报错:failed to start process error reports when automatic reporting is enabled](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#6-ubuntu%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99failed-to-start-process-error-reports-when-automatic-reporting-is-enabled)
   * [7. 改变linux命令行输出的颜色](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#7-%E6%94%B9%E5%8F%98linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%BE%93%E5%87%BA%E7%9A%84%E9%A2%9C%E8%89%B2)
-  * [8. Remove pirates and ecodisasters from Spore]()
+  * [8. Remove pirates and ecodisasters from Spore](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#8-remove-pirates-and-ecodisasters-from-spore)
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
