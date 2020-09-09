@@ -1013,3 +1013,4 @@
   * [Git Branch](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
   * [Git Vs BitKeeper](http://www.path8.net/tn/archives/6039)
   * [GitIgnore Project](https://github.com/github/gitignore)
+  * [Git Reset三种模式](https://www.jianshu.com/p/c2ec5f06cf1a)
