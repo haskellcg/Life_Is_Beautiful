@@ -60,6 +60,16 @@
     R"字符串"           //原始字符串
     ```
     * C++指针
+    ```
+    int *ptr[3];
+    int *(ptr[3]);      //指针数组,和上一项一样
+    int (*ptr)[3];      //指向数组的指针
+    int const *p;
+    const int *p;       //常量指针，和上一项一样
+    int * const p;      //指针常量
+    const int &r1 = 42; //初始化常量引用时允许使用任意表达式作为初值
+    ```
+    * C++引用
   * [C++重要知识点小结---1](https://www.cnblogs.com/heyonggang/p/3246631.html)
   * [C++拷贝构造函数](https://www.cnblogs.com/heyonggang/p/3250080.html)
   * [常见C++面试题及基本知识点总结（一）](https://www.cnblogs.com/LUO77/p/5771237.html)
