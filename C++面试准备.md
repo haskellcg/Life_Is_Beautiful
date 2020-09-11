@@ -31,6 +31,35 @@
       * register: 定义存储在寄存器中而不是RAM中的局部变量,且不能对其取地址,需要注意的是变量不一定将被存放在寄存器中
       * mutable: 允许对象的成员替代常量,即mutable成员可以通过const成员函数修改
       * thread_local: 说明变量仅可以在其创建的线程上访问,变量在创建线程时创建,并在销毁线程时销毁
+    * Lambda函数: 
+    ```
+    [capture](parameter)->return-type{body}
+    [](int x, int y) -> int {int z = x + y; return z + x;}
+    []              //没有定义任何变量，使用未定义变量会引发错误
+    [x, &y]         //x传值,y传引用
+    [&]             //任何被使用的外部变量都隐式地传引用
+    [=]             //任何被使用的外部变量都隐式地传值
+    [&, x]          //x传值,其他传引用
+    [=, &z]         //z传引用,其他传值
+    ```
+    * C++中,讲char *或者char []传递给cout进行输出,结果会是整个字符串,如果想要获取字符串的地址,需要将其转化为其他类型指针
+    * 指向函数的指针(char (\*fun)(int i))/返回指针的函数(char \*upper(char \*str))
+    * 大小端:0x01020304,起始地址存放低位字节为小端(04, 03, 02, 01),起始地址存放高位字节为大端(01, 02, 03, 04)
+    * strlen,sizeof,size()
+    ```
+    char str[20] = "0123456789";
+    int a = strlen(str);            //a = 10
+    int b = sizeof(str);            //b = 20
+    ```
+    * 字符串
+    ```
+    char m[20];
+    cin >> m;           //接受字符串,遇到空格、tab、回车结束
+    cin.get(m, 20);     //接受字符串,遇到回车结束
+    gets(m);            //
+    R"字符串"           //原始字符串
+    ```
+    * C++指针
   * [C++重要知识点小结---1](https://www.cnblogs.com/heyonggang/p/3246631.html)
   * [C++拷贝构造函数](https://www.cnblogs.com/heyonggang/p/3250080.html)
   * [常见C++面试题及基本知识点总结（一）](https://www.cnblogs.com/LUO77/p/5771237.html)
