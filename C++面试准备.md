@@ -65,11 +65,37 @@
     int *(ptr[3]);      //指针数组,和上一项一样
     int (*ptr)[3];      //指向数组的指针
     int const *p;
-    const int *p;       //常量指针，和上一项一样
+    const int *p;       //常量指针,和上一项一样
     int * const p;      //指针常量
     const int &r1 = 42; //初始化常量引用时允许使用任意表达式作为初值
     ```
-    * C++引用
+    * C++日期和时间
+    ```
+    #include <ctime>
+    using namespace std;
+    //clock_t/time_t/size_t/tm
+    //time/ctime/localtime/clock/asctime/gmtime/mktime/difftime/strftime
+    ```
+    * cout/cin/cerr/clog
+    * 定义在类中的成员函数缺省都是内联的,inline是一种用于实现的关键字,即inline必须与函数定义体放在一起在能使函数成为内联
+    * 类访问修饰符(public, protected, private)/继承修饰符(只改变基类在子类中的访问属性,并不会影响基类对子类的访问限制):
+      * private成员只能被本类成员和友元访问,不能被派生类访问
+      * protected成员可以被派生类访问
+      * 类默认是private继承,结构体默认是public继承
+    * 当我们调用成员函数时,实际上是替某个对象调用它,成员函数通过一个名为this的额外隐式参数来访问调用它的对象
+    ```
+    totoal.isbn();      //实际Sales_data::isbn(&total);
+                        //return-type Sales_data::isbn(Sales_data * const this);
+    int Box::objectcount = 0;       //static int objectcount的定义初始化
+    ```
+    * 菱形继承方式会导致基类创建两个对象,解决方法是引入虚继承
+    ```
+    class D{......};
+    class A: virtual public D{......};
+    class B: virtual public D{......};
+    class C: public A, public B{......};
+    ```
+    * 重载运算符
   * [C++重要知识点小结---1](https://www.cnblogs.com/heyonggang/p/3246631.html)
   * [C++拷贝构造函数](https://www.cnblogs.com/heyonggang/p/3250080.html)
   * [常见C++面试题及基本知识点总结（一）](https://www.cnblogs.com/LUO77/p/5771237.html)
