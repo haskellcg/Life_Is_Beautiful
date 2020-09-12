@@ -122,6 +122,41 @@
       * 在创建含有虚函数的类的对象的时候,编译器会在每个对象的内存中增加一个vptr指针,该指针指向本类的VTable
       * 派生类与基类同名的虚函数在VTable中有相同的索引号
       * 有时我们并不希望父类的某个函数在子类中被重写,在C++11中可以使用关键字final来避免该函数再次被重写
+      * 纯虚函数,抽象类
+    * 文件流
+    ```
+    ofstream/ifstream/fstream
+    ios::app/ios::ate/ios::in/ios::out/ios::trunc
+    seekg();                            //ios::cur/ios::beg/ios::end
+    cin.ignore(int n, char a);          //提取的字符被忽略,知道计数器达到n或者遇到字符a
+    ```
+    * 异常
+    ```
+    struct MyException: public exception{......};       //自定义异常
+    void fun() throw(A, B, C, D);                       //异常规则说明
+    void old_style() throw();                           //无异常
+    void new_style() noexcept;                          //无异常
+    ```
+    * 模板
+    ```
+    /*< 函数模板 */
+    template <typename T>
+    inline T const &Max(T const &a, T const &b){......}
+    /*< 类模板 */
+    template <typename T>
+    class A{......};
+    typedef typename T::LengthType LengthType;          //嵌套依赖类型,告诉编译器typename后的字符串为一个类型,而不是成员函数或者成员变量
+    MyStack.hpp                                         //定义实现文件
+    ```
+    * 预处理器
+    ```
+    #define PI 3.14159                                  //-E选项查看预处理结果
+    #define MIN(a, b) (a < b ? a : b)
+    #ifdef NULL ...... #endif
+    #define MKSTR(x) #x                                 //#运算符把x转换为引号包含的字符串
+    #define CONCAT(x, y) x##y                           //##运算符链接两个字符串
+    cout << __LINE__ << endl;                           //预定义宏__LINE__/__FILE__/__DATE__/__TIME__
+    ```
   * [C++重要知识点小结---1](https://www.cnblogs.com/heyonggang/p/3246631.html)
   * [C++拷贝构造函数](https://www.cnblogs.com/heyonggang/p/3250080.html)
   * [常见C++面试题及基本知识点总结（一）](https://www.cnblogs.com/LUO77/p/5771237.html)
@@ -129,16 +164,44 @@
 ## 2. 设计模式
 
 ## 3. 网络编程以及网络模型
+  * CGI,公共网关接口,是一套标准,定义了信息是如何在Web服务器和客户端脚本之间进行交换
+  * 浏览一个特定的网页或者URL:
+    * 浏览器连接HTTP Web服务器,并请求URL,即文件名
+    * Web服务器解析URL,查找文件名,如果找到请求的文件,Web服务器吧文件发送回浏览器,否则报错
+    * 浏览器从Web服务器获取相应,病根据收到的响应来显示文件或错误消息
+  * 默认情况下,Apache Web服务器会配置在/var/www/cgi-bin中运行CGI程序
+  * CGI库Cgicc
+    * GET方法是默认的从浏览器向Web服务器传信息的方法,它会在浏览器的地址栏中生成一串很长的字符串,当有敏感信息时,不要使用GET方法
+    * POST方法与GET不同,它以单独的消息形式进行传递
+  * Cookie
+    * 很多情况下,使用cookies是记忆和跟踪用户喜好、购买、佣金以及其他为追求更好的游客体验或网站统计所需信息的最有效的方法
+    * 服务器已cookie的形式向访客浏览器发送一些数据,如果浏览器接受了cookie,则cookie会以纯文本记录的形式存储在访客都得硬盘上
+    * cookie是一种纯文本的数据记录,带有5个可变长度的字段
 
 ## 4. 数据库原理
 
 ## 5. 数据结构与算法
 
 ## 6. STL/BOOST库
+  * TODO
 
 ## 7. C++模板
 
 ## 8. 多线程
+  * Linux中POSIX多线程接口
+  ```
+  #include <pthread>
+  int pthread_create(thread, attr, start_routine, arg);                     //创建线程
+  int pthread_exit(status);                                                 //终止线程
+  int pthread_join(pthread_id, status);                                     //子程序阻碍调用程序,知道制定的threadid线程终止为止,只有创建时定义为可连接的线程才可以被连接
+
+  pthread_attr_t attr;
+  pthread_attr_init(&attr);
+  pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_JOINABLE);              //初始化并设置线程为可连接
+  pthread_attr_destory(&attr);
+
+  g++ test.cpp -lpthread -o test.o                                          //编译选项
+  ```
 
 ## 9. C++11新特性
 
@@ -153,3 +216,8 @@
 ## 14. 杂项
   * 智能指针实现
   * 内存池原理
+  * 信号处理
+  ```
+  signal(registered signal, signal handler);            //signal函数原型
+  int raise(signal sig);                                //生成信号
+  ```
