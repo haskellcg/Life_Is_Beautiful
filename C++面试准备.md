@@ -95,7 +95,33 @@
     class B: virtual public D{......};
     class C: public A, public B{......};
     ```
-    * 重载运算符
+    * 重载运算符(参数的类型、数量、顺序差别)
+    ```
+    Point &operator++();                //前缀方式++Point
+    Point operator++(int):              //后缀方式Point++
+    /*< 重载输出流 */
+    friend ostream &operator<<(ostream &output, const Distance &D)
+    {
+        output << "F:" << D.feet
+               << "I:" << D.inches;
+        return output;
+    }
+    /*< 重载输入流 */
+    friend istream &operator>>(istream &input, Distance &D)
+    {
+        input >> D.feet >> D.inches;
+        return input;
+    }
+    operator int();                     //自定义类型转换
+    Distance operator()(int a, int b);  //函数调用运算符重载
+    int &operator[](int i);             //下标运算符重载
+    X *operator->();                    //类成员访问运算符重载,类Ptr的对象可用访问类X的成员,可用于实现智能指针的功能
+    ```
+    * 虚函数的调用必须通过指针或者引用调用
+      * 每个函数虚函数的类都有各自的一张虚函数表VTable,每一个派生类都继承了它各自基类的VTable,如果基类的VTable中包含一项,派生类的VTable也将包含这一项,值可能不一样
+      * 在创建含有虚函数的类的对象的时候,编译器会在每个对象的内存中增加一个vptr指针,该指针指向本类的VTable
+      * 派生类与基类同名的虚函数在VTable中有相同的索引号
+      * 有时我们并不希望父类的某个函数在子类中被重写,在C++11中可以使用关键字final来避免该函数再次被重写
   * [C++重要知识点小结---1](https://www.cnblogs.com/heyonggang/p/3246631.html)
   * [C++拷贝构造函数](https://www.cnblogs.com/heyonggang/p/3250080.html)
   * [常见C++面试题及基本知识点总结（一）](https://www.cnblogs.com/LUO77/p/5771237.html)
@@ -123,3 +149,7 @@
 ## 12. Python基础语法
 
 ## 13. 编译原理
+
+## 14. 杂项
+  * 智能指针实现
+  * 内存池原理
