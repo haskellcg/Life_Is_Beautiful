@@ -162,6 +162,7 @@
   * [常见C++面试题及基本知识点总结（一）](https://www.cnblogs.com/LUO77/p/5771237.html)
 
 ## 2. 设计模式
+  * TODO
 
 ## 3. 网络编程以及网络模型
   * CGI,公共网关接口,是一套标准,定义了信息是如何在Web服务器和客户端脚本之间进行交换
@@ -183,7 +184,49 @@
 ## 5. 数据结构与算法
 
 ## 6. STL/BOOST库
-  * TODO
+  * [C++ STL模板库](http://c.biancheng.net/cplus/80/)包含一些常用的数据结构和算法
+  * C++容器,被放入容器的对象所属的类最好重载==和<运算符,以使得两个对象用==和<进行比较是有定义的
+    * 顺序容器:vector, deque, list
+    * 关联容器:set, multiset, map, multimap
+    * 容器适配器:stack, queue, priority\_queue
+  * C++迭代器
+    * 迭代器iterator
+    * 常量迭代器const\_iterator
+    * 反向迭代器reverse\_iterator
+    * 常量反向迭代器const\_reverse\_iterator
+    * 正向迭代器(++)
+    * 双向迭代器(++, --)
+    * 随机访问迭代器(+=, -=, +, -, ++, --)
+    ```
+    advance(p, n);                      //是迭代器向前或向后移动n个元素
+    distance(p, q);                     //计算两个迭代之间的距离
+    iter_swap(p, q);                    //交换两个迭代之间的值
+    ```
+  * STL中,x和y相等也往往不等价于x==y为真,在未排序的区间上查找时,比较两个元素相等使用==运算符,在排序的区间上查找时,比较两个元素相等意味着x\<y与y\<x都为假
+  * 函数对象,函数对象模板
+  * string
+  ```
+  string s1;
+  s1.length();
+  s1.append("ABCDE", 2, 3);
+  s1.swap(s2);
+  s1.find();
+  s1.replace();
+  s1.erase();
+  s1.insert();
+  ```
+  * BOOST库是一个优秀的、可移植的开源C++库,设计理念和STL比较接近,都是利用泛型让复用达到最大化,其中有些内容成为下一代C++标准库内容,是不择不扣的准标准库
+    * 文本处理,conversion/lexical\_cast类
+    * 正则表达式,regex
+    * LL分析的框架,spirit
+    * tokenizer库,分割字符串
+    * 关于图的容器和相关算法,graph
+    * 并发编程,thread
+    * 单元测试框架,test
+    * 编译器的assert功能,static\_assert
+    * 内存池,pool
+    * 智能指针,smart\_ptr
+    * 定时器,timer
 
 ## 7. C++模板
 
@@ -212,6 +255,7 @@
 ## 12. Python基础语法
 
 ## 13. 编译原理
+  * TODO
 
 ## 14. 杂项
   * 智能指针实现
