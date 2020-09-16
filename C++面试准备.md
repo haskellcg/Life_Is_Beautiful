@@ -244,10 +244,68 @@
     * 很多情况下,使用cookies是记忆和跟踪用户喜好、购买、佣金以及其他为追求更好的游客体验或网站统计所需信息的最有效的方法
     * 服务器已cookie的形式向访客浏览器发送一些数据,如果浏览器接受了cookie,则cookie会以纯文本记录的形式存储在访客都得硬盘上
     * cookie是一种纯文本的数据记录,带有5个可变长度的字段
-  * TODO
+  * OSI七层模型
+    * 应用层:对应应用程序的通信服务,TELNET/HTTP/FTP/NFS/SMTP
+    * 表示层:定义数据格式以及加密,加密协议/ASCII
+    * 会话层:定义如何开始、控制、结束一个会话,RPC/SQL
+    * 传输层:包括是否选择差错恢复协议还是无差错协议,TCP/UDP/SPX
+    * 网络层:对端到端的包传输进行定义,它定义了能够标识所有结点的逻辑地址,IP/IPX
+    * 数据链路层:定义了在单个链路上如何传播数据,ATM/FDDI
+    * 物理层:定义了传输介质特性,Rj45/802.3
+  * TCP/IP五层模型
+    * 应用层
+    * 传输层
+    * 网络层
+    * 数据链路层
+    * 物理层
+  * TCP(传输控制协议,Transmission Control Protocol):提供可靠的端到端字节流而专门设计的传输协议
+    * 字段格式(Source Port, Destination Port, Sequence Number, Acknowledgment Number, Data offset, URG|ACK|PSH|RST|SYN|FIN, Window, Checksum, Urgent Pointers)
+    * 三次握手建立连接(SYN(SEQ=x) =>, SYN(SEQ=y) ACK(ACK=x+1) =>, ACK(ACK=y+1) =>)
+    * 四次握手终止连接(主动关闭 FIN =>, ACK =>, 被动关闭 FIN =>, ACK =>)
+    * 延迟确认功能、丢弃重复数据、流量控制、重传机制、窗口确认
+  * UDP(用户数据报文协议,User Datagram Protocol):提供一种无需建立连接就可以发送封装数据包的方法
+    * 字段格式(Source Port, Destination Port, Length, Checksum)
+  * C++网络编程
+    * 套接字:源IP地址、目的IP地址、源端口号、目的端口号
+    * 套接字类型:流套接字(SOCK\_STREAM, TCP),数据报文套接字(SOCK\_DGRAM, UDP),原始套接字(SOCK\_RAW, IP)
+    * 函数
+    ```
+    /**
+     * @brief 创建套接字
+     * @param int family, AF_INET/PF_PACKET
+     * @param int type, SOCK_STREAM/SOCK_DGRAM/SOCK_RAW
+     * @param int protocol, 一般是0,对于原始套接字来说是具体的协议
+     */
+    int socket(int family, int type, int protocol);
+    /**
+     * @brief 应用于服务器一端,绑定参数
+     */
+    int bind(int sockfd, const struct sockaddr *myaddr, socklen_t addrlen);
+    /**
+     * @brief 监听函数,等待队列的长度由listen中的backlog参数决定,服务器端特有函数
+     */
+    int listen(int sockfd, int backlog);
+    /**
+     * @brief 请求接收函数,是取了一个已经处于connected状态的连接,然后把对方的协议族、网络地址以及端口都存在了client_addr中,服务器端特有函数
+     */
+    int accept(int sockfd, struct sockaddr *client_addr, socklen_t *len);
+    /**
+     * @brief 客户端请求连接函数,client端函数
+     */
+    int connect(int sockfd, struct sockaddr *serv_addr, int addrlen);
+    ```
 
 ## 4. 数据库原理
-  * TODO
+  * [参考](https://blog.csdn.net/u014712482/article/details/82356322)
+  * 存储过程:常用的关系型数据库MySQL,使用SQL语句,SQL在执行的时候需要编译、执行,而存储过程是一组为了完成某种特定功能的SQL语句集,是一个可编程的函数
+  * 索引:帮助MySQL高效获取数据的数据结构,B-Tree/Hash/R-Tree/Full
+  * 事务:并发控制的基本单位,是一个操作序列,要么都执行,要么都不执行,ACID特性(原子性、一致性、隔离性、持久性)
+  * 视图
+  * 超键 候选键 主键 外键
+  * 三范式
+  * E-R图:实体-联系图
+  * 乐观锁与悲观锁
+  * 左右连接 全连接 内连接
 
 ## 5. 数据结构与算法
   * TODO
