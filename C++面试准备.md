@@ -423,13 +423,120 @@
     * 类和实例
     ```
     class Student:
+      count = 0                     #类属性
+
       def __init__(self, name, score):
         self.name = name
         self.score = score
+        count += 1
+
 
       def print_score(self):
         print('%s: %s' % (self.name, self.score))
     ```
+    * 访问限制(两个下划线)
+    * 继承和多态
+    ```
+    class Dog(Animal):
+      pass
+
+    type(Dog)                       #类型信息
+    isinstance(Dog, Animal)         #继承关系
+    dir(Dog)                        #获取属性以及方法的列表
+    hasattr(Student, name)          #测试是否包含某个属性
+    ```
+  * 面向对象高级编程
+    * 使用\_\_slots\_\_ (限制实例的属性)
+    * 使用@property
+    * 多重继承、定制类、枚举类
+    ```
+    __str__, __repr__               #print(dog)
+    __iter__
+    __getitem__
+    __getattr__
+    __call__                        #可调用对象
+    Month = Enum('Month', ('Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'))
+    ```
+    * 使用元类
+    ```
+    Hello = type('Hello', (object,), dict(hello=fn))        #创建Hello Class
+
+    class ListMetaclass(type):
+      def __new__():
+        attrs['addr'] = lambda self, value: self.append(value)
+        return type.__new__(cls, name, bases, attrs)
+
+    class MyList(list, metaclass = ListMetaclass):
+      pass
+    ```
+  * 错误、调试、测试
+    * 错误处理
+    * 调试
+    ```
+    try ... except ... finally
+
+    assert n != 0, 'n is zero'
+
+    logging('n = %d', % n)
+    
+    python -m pdb err.py
+    pdb.set_trace()                 # 设置一个端点
+    ```
+    * 单元测试
+    ```
+    import unittest
+
+    from mydict import Dict
+
+    class TestDict(unittest.TestCase):
+      pass
+      
+    if '__main__' == __name__:
+      unittest.main()
+    ```
+    * 文档测试(doctest)
+  * 进程和线程
+    * 在单核CPU情况下,操作系统轮流让各个人物交替执行,由于CPU执行速度很快,我们感觉所有任务都在同时执行
+    * 多进程:fork系统调用,子进程返回0,父进程则返回子进程ID
+      * multiprocessing, Pool, subprocess, 进程间通信(Queue, Pipes)
+    * 多线程:\_thread, threading模块
+      * 多线程与多进程的最大区别在于,多进程中,同一个变量,各自有一份拷贝存在于每个进程中,互不影响,而在多线程中,所有变量都由所有线程共享
+      * Python的线程虽然是真正的线程,但是解释器执行时,有一个GIL锁(Global Interpreter Lock),任何python线程执行前,必须先获得GIL锁,这个锁其实把所有线程的执行代码都给上了锁
+    * ThreadLocal
+    * 计算密集型 vs. IO密集型
+    * 分布式进程
+  * 正则表达式
+    * re模块
+    ```
+    import re
+    re.match(r'^\d{3}\-\d{3, 8}$', '010-12345')
+
+    'a b  c'.split(' ')                         #正常切分代码
+    re.split(r'\s+', 'a b  c')                  #re模块的split
+
+    m = re.match(r'^(\d{3})-(\d{3, 8})$', '010-12345')
+    m.group(0)                                  #匹配本身
+    m.group(1)                                  #分组1
+
+    re_teleport = re.compile(r'^(\d{3})-(\d{3, 8})$')
+    re_teleport.match('010-12345').groups()     #编译正则
+    ```
+    * 贪婪匹配
+  * 常用的内建模块(datetime/collections/base64/struct/hashlib/hmac/itertools/contextlib/urllib/xml/HTMLParser)
+  * 常用第三方模块(Pillow/requests/chardet/psutil)
+  * virtualenv(virtualenv是一个用来为一个应用创建一套隔离的Python运行环境)
+  * 图形界面(Tkinter, wxWidgets, QT, GTK, Turtle Graphics)
+  * 网络编程
+  ```
+  import socket
+  s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+  s.connect(('www.sina.com.cn', 80))
+  ```
+  * 电子邮件
+  * 访问数据库
+  * Web开发 
+  * 异步IO
+  * 使用MicroPythonA:python的精简版本,是为了运行在单片机这样的性能有限的微控制器上,最有体积为256K,运行时需16K内存
 
 ## 13. 编译原理
   * [参考](https://www.jianshu.com/p/eb63d31ad638)
