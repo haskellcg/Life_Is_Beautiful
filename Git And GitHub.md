@@ -65,3 +65,4 @@ GitHub提供了代码托管，使用邮箱注册、填写profile，相当方便�
  [> Git与GitHub连接](http://www.jianshu.com/p/7fa6b2d81f19)  
  [> Git使用教程](https://segmentfault.com/a/1190000003728094)  
  [> 廖雪峰Git教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+ [> 同设备多Git项目管理](https://wodewone.github.io/2017/11/08/git-multiple-account-in-mac/)
