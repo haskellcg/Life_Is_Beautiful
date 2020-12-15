@@ -1014,3 +1014,4 @@
   * [Git Vs BitKeeper](http://www.path8.net/tn/archives/6039)
   * [GitIgnore Project](https://github.com/github/gitignore)
   * [Git Reset三种模式](https://www.jianshu.com/p/c2ec5f06cf1a)
+  * [TortoiseGit revert assume unchaged](https://riptutorial.com/git/example/31015/assume-unchanged)
