@@ -174,3 +174,6 @@
   
 ## My References
   * [vim 常用快捷键](https://www.cnblogs.com/tianyajuanke/archive/2012/04/25/2470002.html)
+  * [vim visual mode](https://dev.to/iggredible/mastering-visual-mode-in-vim-15pl)
+  * [FZF vim](https://dev.to/iggredible/how-to-search-faster-in-vim-with-fzf-vim-36ko)
+  * [vim insert mode](https://dev.to/iggredible/the-only-vim-insert-mode-cheatsheet-you-ever-needed-nk9)
