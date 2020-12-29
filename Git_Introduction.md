@@ -1015,3 +1015,4 @@
   * [GitIgnore Project](https://github.com/github/gitignore)
   * [Git Reset三种模式](https://www.jianshu.com/p/c2ec5f06cf1a)
   * [TortoiseGit revert assume unchaged](https://riptutorial.com/git/example/31015/assume-unchanged)
+  * [Git Modify commited log](https://www.cnblogs.com/libra13179/p/11429302.html)
