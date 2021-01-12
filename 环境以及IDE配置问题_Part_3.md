@@ -8,6 +8,7 @@
   * [7. 改变linux命令行输出的颜色](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#7-%E6%94%B9%E5%8F%98linux%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%BE%93%E5%87%BA%E7%9A%84%E9%A2%9C%E8%89%B2)
   * [8. Remove pirates and ecodisasters from Spore](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#8-remove-pirates-and-ecodisasters-from-spore)
   * [9. 调试DLL](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#9-%E8%B0%83%E8%AF%95dll)
+  * [10. Chrome dino Game]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -66,5 +67,12 @@
     * PirateRaidPlunderFrequency
     * BiosphereCollapseFrequency
     * HappinessDisasterFrequency
+    
 ## 9. 调试DLL
   * [VS调试DLL](https://blog.csdn.net/qianghaohao/article/details/50190905)
+  
+## 10. Chrome dino Game
+  * Chrone dino game
+  ![Game](https://github.com/haskellcg/Blog_Pictures/blob/master/Chrome_dino_Game.PNG)
+  * [Dinosaur Game Wiki](https://en.wikipedia.org/wiki/Dinosaur_Game)
+  
