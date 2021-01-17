@@ -9,6 +9,7 @@
   * [8. Remove pirates and ecodisasters from Spore](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#8-remove-pirates-and-ecodisasters-from-spore)
   * [9. 调试DLL](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#9-%E8%B0%83%E8%AF%95dll)
   * [10. Chrome dino Game](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#10-chrome-dino-game)
+  * [11. Diable youtube "Latest Youtube Posts"]
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -76,3 +77,11 @@
   ![Game](https://github.com/haskellcg/Blog_Pictures/blob/master/Chrome_dino_Game.PNG)
   * [Dinosaur Game Wiki](https://en.wikipedia.org/wiki/Dinosaur_Game)
   
+## 11. Diable youtube "Latest Youtube Posts"
+  * I guess I'm not the only find the feature is annoying
+  * downloads firefox addon "uBlock Origin"
+  * add following filter
+  ```
+  https://www.youtube.com##ytd-item-section-renderer:has(span:has-text(/Latest YouTube posts/i))
+  youtube.com###dismissable.ytd-rich-shelf-renderer
+  ```
