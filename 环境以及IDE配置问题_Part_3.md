@@ -10,6 +10,7 @@
   * [9. 调试DLL](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#9-%E8%B0%83%E8%AF%95dll)
   * [10. Chrome dino Game](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#10-chrome-dino-game)
   * [11. Diable youtube "Latest Youtube Posts"](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#11-diable-youtube-latest-youtube-posts)
+  * [12. Github图片加载问题]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -84,4 +85,16 @@
   ```
   https://www.youtube.com##ytd-item-section-renderer:has(span:has-text(/Latest YouTube posts/i))
   youtube.com###dismissable.ytd-rich-shelf-renderer
+  ```
+
+## 12. Github图片加载问题
+  * 主要思路就是使用本地hosts文件对网站进行域名解析
+  * 打开github任意未显示图片的网页，使用元素选择器（Ctrl+Shift+C）放在显示不了的图片上，或者在无法显示的图片上右键-检查元素，定位到该图片的标签，那么你得到了它的URL，叫做src属性
+  * 得到上述网址以后打开IPAddress.com这个网站，在搜索框输入它的域名
+  * C:\Windows\System32\drivers\etc\hosts
+  ```
+  #目前使用的host
+  140.82.112.4        www.github.com
+  199.232.96.133      avatars.githubusercontent.com
+  199.232.96.133      camo.githubusercontent.com
   ```
