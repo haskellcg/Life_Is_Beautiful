@@ -11,6 +11,7 @@
   * [10. Chrome dino Game](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#10-chrome-dino-game)
   * [11. Diable youtube "Latest Youtube Posts"](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#11-diable-youtube-latest-youtube-posts)
   * [12. Github图片加载问题](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#12-github%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E9%97%AE%E9%A2%98)
+  * [13. Chrome关闭后保存打开的网页]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -98,3 +99,9 @@
   199.232.96.133      avatars.githubusercontent.com
   199.232.96.133      camo.githubusercontent.com
   ```
+  
+## 13. Chrome关闭后保存打开的网页
+  * 背景:下班后需要关机，但是Chrome上打开很多网页，需要第二天上边接着看
+  * 设置Chrome: Settings->On start-up
+  * Choose "Continue where you left off"
+  * Chrome会帮助你记录所有打开的网页
