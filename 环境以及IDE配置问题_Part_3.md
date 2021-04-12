@@ -12,6 +12,7 @@
   * [11. Diable youtube "Latest Youtube Posts"](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#11-diable-youtube-latest-youtube-posts)
   * [12. Github图片加载问题](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#12-github%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E9%97%AE%E9%A2%98)
   * [13. Chrome关闭后保存打开的网页](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#13-chrome%E5%85%B3%E9%97%AD%E5%90%8E%E4%BF%9D%E5%AD%98%E6%89%93%E5%BC%80%E7%9A%84%E7%BD%91%E9%A1%B5)
+  * [14. Win10激活]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -105,3 +106,14 @@
   * 设置Chrome: Settings->On start-up
   * Choose "Continue where you left off"
   * Chrome会帮助你记录所有打开的网页
+
+## 14. Win10激活
+  * [Reference](https://www.win7w.com/win10jihuo/18178.html)
+  ```
+  # 管理员身份启动命令行
+  # 秘钥
+  slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+  # kms服务器
+  slmgr /skms kms.03k.org
+  slmgr /ato
+  ```
