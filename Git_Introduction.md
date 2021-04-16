@@ -1018,3 +1018,4 @@
   * [Git Modify commited log](https://www.cnblogs.com/libra13179/p/11429302.html)
   * [删除远程提交](https://www.cnblogs.com/feynman61/p/9005252.html)
   * [删除远程标签](https://blog.csdn.net/fancancan/article/details/80619717)
+  * [恢复Git Reset Hard的提交](https://mp.weixin.qq.com/s/58W1ljewwvextw05_OKE1w)
