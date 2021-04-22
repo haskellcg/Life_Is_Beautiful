@@ -13,6 +13,7 @@
   * [12. Github图片加载问题](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#12-github%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E9%97%AE%E9%A2%98)
   * [13. Chrome关闭后保存打开的网页](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#13-chrome%E5%85%B3%E9%97%AD%E5%90%8E%E4%BF%9D%E5%AD%98%E6%89%93%E5%BC%80%E7%9A%84%E7%BD%91%E9%A1%B5)
   * [14. Win10激活](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#14-win10%E6%BF%80%E6%B4%BB)
+  * [15. 正确删除Windows.old文件夹]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -116,4 +117,13 @@
   # kms服务器
   slmgr /skms kms.03k.org
   slmgr /ato
+  ```
+  
+## 15. 正确删除Windows.old文件夹
+  * Windows系统升级后，会在系统盘生成Windows.old文件夹备份，通常会占用大量的磁盘空间，删除方法如下
+  ```
+  1. 选择系统盘，右键属性
+  2. 选择"磁盘清理"，然后选择"清理系统文件"
+  3. 在新窗口中选择"以前的Windows安装"
+  4. 确认即可
   ```
