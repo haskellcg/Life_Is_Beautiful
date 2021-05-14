@@ -14,6 +14,7 @@
   * [13. Chrome关闭后保存打开的网页](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#13-chrome%E5%85%B3%E9%97%AD%E5%90%8E%E4%BF%9D%E5%AD%98%E6%89%93%E5%BC%80%E7%9A%84%E7%BD%91%E9%A1%B5)
   * [14. Win10激活](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#14-win10%E6%BF%80%E6%B4%BB)
   * [15. 正确删除Windows.old文件夹](https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_3.md#15-%E6%AD%A3%E7%A1%AE%E5%88%A0%E9%99%A4windowsold%E6%96%87%E4%BB%B6%E5%A4%B9)
+  * [16. Office2016专业增强版激活]()
 
 [catalog_img]: https://img.shields.io/badge/%E7%9B%AE%E5%BD%95-Summary-brightgreen.svg 
 [catalog_link]: https://github.com/haskellcg/Life_Is_Beautiful/blob/master/%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8AIDE%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98_Part_2.md
@@ -126,4 +127,20 @@
   2. 选择"磁盘清理"，然后选择"清理系统文件"
   3. 在新窗口中选择"以前的Windows安装"
   4. 确认即可
+  ```
+  
+## 16. Office2016专业增强版激活
+  * [Reference](http://www.xitongcheng.com/jiaocheng/dnrj_article_44859.html)
+  ```
+  # 管理员身份启动PowerShell
+  # 切换到Office16目录
+  cd "C:\Program Files\Microsoft Office\Office16"
+  # 输入Key
+  cscript ospp.vbs /inpkey:XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99
+  # 设置kms服务器
+  cscript ospp.vbs /sethst:kms.03k.org
+  # 激活
+  cscript ospp.vbs /act
+  # 查看状态
+  cscript ospp.vbs /dstatus
   ```
